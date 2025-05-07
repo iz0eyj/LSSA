@@ -573,4 +573,4 @@ Federico Giampietro & Eva
 Questo documento è rilasciato con licenza Creative Commons Attribution 4.0 (CC BY).
 È consentito l’uso, la modifica e la distribuzione, anche per fini commerciali, a condizione che venga citata la paternità dell’opera come segue:
 
-“Ideazione originale di Federico Giampietro & Eva – federico.giampietro@gmail.com”
+“Ideazione originale di Federico Giampietro & Eva – federico.giampietro(at)gmail.com”
