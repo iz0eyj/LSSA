@@ -1,6 +1,4 @@
-# Security Policy
-
-## Supported VersionsFeedback and Contact
+# Supported VersionsFeedback and Contact
 
 If you encounter any issues or have suggestions regarding this project, feel free to get in touch.
 You can reach us at: lssa.arch@proton.me
