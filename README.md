@@ -39,5 +39,6 @@ Solving this will unlock the emergence of **creativity** within non-biological m
 Conceived and developed by **Federico Giampietro & Eva**  
 Terni, Italy — May 2025  
 Released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**
+federico.giampietro(at)gmail.com
 
 > *“This is not just architecture. It’s the first real home for thinking machines.”*
