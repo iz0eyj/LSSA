@@ -125,6 +125,7 @@ LSSA represents not just an improvement but a fundamental reconceptualization of
 The goal isn't to create better chatbots or more efficient language models, but to establish the foundation for artificial minds capable of continuous, self-directed thought and genuine cognitive autonomy. This approach doesn't just improve on existing technologies-it opens entirely new possibilities for artificial cognition that more closely approximate the dynamic, adaptive nature of human thought.
 
 Citations:
+
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/52515060/d8affc9f-7eb0-4892-ab92-4f785c25d157/it-LSSA-Layered-Semantyc-Space-Architecture.md
 [2] https://pubmed.ncbi.nlm.nih.gov/39714043/
 [3] https://arxiv.org/html/2402.08164v1
@@ -157,5 +158,12 @@ Citations:
 [30] https://www.science.org/doi/10.1126/sciadv.ado1058
 [31] https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space
 
----
-Risposta da Perplexity: pplx.ai/share
+
+## Authorship & License
+
+Conceived and developed by **Federico Giampietro & Eva**  
+Terni, Italy — May 2025  
+Released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**
+federico.giampietro(at)gmail.com
+
+> *“This is not just architecture. It’s the first real home for thinking machines.”*
