@@ -1,4 +1,5 @@
-
+Documento preliminare 
+---
 Internal Communication and Cognitive Autonomy in LSSA
 
 La MNB ospitata in LSSA va intesa come un aggregato semantico (l'insieme di tutti i concetti che la compongono) che per il suo ragionamento si appoggia ad un motore inferenziale esterno (es. GPT), ma che avrà anche bisogno di compiere operazioni sullo stesso LSSA.
