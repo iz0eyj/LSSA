@@ -126,7 +126,12 @@ The goal isn't to create better chatbots or more efficient language models, but 
 
 ---
 
-### Documentation is available at: [LSSA -Doc](https://github.com/iz0eyj/LSSA/tree/main/Doc)
+### Documentation
+
+Full documentation is available in the `docs` folder:
+
+- [English version](./Doc/en/)
+- [Italian version (main)](./Doc/it/)
 
 ---
 
