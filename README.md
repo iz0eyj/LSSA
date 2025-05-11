@@ -43,7 +43,7 @@ For a full technical comparison with existing AI architectures, see [LSSA-Overvi
 Full documentation is available in the `docs` folder:
 
 - [English version](./Doc/en/)
-- [Italian version](./Doc/it/)
+- [Italian version (main)](./Doc/it/)
 
 ---
 
