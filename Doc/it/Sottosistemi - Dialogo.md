@@ -42,4 +42,5 @@ You are free to:
   This can be done in any reasonable manner, but not in a way that suggests endorsement.  
   **Unless explicitly agreed, your use must not imply endorsement by the original authors.**
 **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
-**License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+  **License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
