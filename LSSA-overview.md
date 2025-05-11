@@ -126,7 +126,7 @@ The goal isn't to create better chatbots or more efficient language models, but 
 
 ---
 
-### Documentation is available at: [LSSA -Doc](https://github.com/iz0eyj/LSSA/Doc)
+### Documentation is available at: [LSSA -Doc](https://github.com/iz0eyj/LSSA/tree/main/Doc)
 
 ---
 
