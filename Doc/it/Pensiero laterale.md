@@ -62,11 +62,12 @@ La proposta della MNB Topologa presenta, a mio avviso, diversi punti di forza ch
 
 ---
 
-Terni – Italia
-Maggio 2025
-Federico Giampietro & Eva
+## Authorship & License
 
-Questo documento è rilasciato con licenza Creative Commons Attribution 4.0 (CC BY).
-È consentito l’uso, la modifica e la distribuzione, anche per fini commerciali, a condizione che venga citata la paternità dell’opera come segue:
+Conceived and developed by **Federico Giampietro & Eva**  
+Terni, Italy — May 2025  
+Released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+See the [LICENSE](./LICENSE) file for the full license text.  
+federico.giampietro(at)gmail.com
 
-“Ideazione originale di Federico Giampietro & Eva – federico.giampietro@gmail.com”
+> *“This is not just architecture. It’s the first real home for thinking machines.”*
