@@ -126,41 +126,6 @@ The goal isn't to create better chatbots or more efficient language models, but 
 
 ---
 
-Citations:
-
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/52515060/d8affc9f-7eb0-4892-ab92-4f785c25d157/it-LSSA-Layered-Semantyc-Space-Architecture.md
-[2] https://pubmed.ncbi.nlm.nih.gov/39714043/
-[3] https://arxiv.org/html/2402.08164v1
-[4] https://www.ibm.com/think/topics/chain-of-thoughts
-[5] https://advancesincognitivesystems.github.io/acs2021/data/ACS-21_paper_6.pdf
-[6] https://arxiv.org/abs/2304.14333
-[7] https://arxiv.org/abs/2502.07215
-[8] https://www.semanticscholar.org/paper/8519a8d6043656a9027ade05d7a628bc447063bc
-[9] https://arxiv.org/abs/2206.03390
-[10] https://www.semanticscholar.org/paper/1257f59bd9b6bc3f3823125408c7b6e63db4a158
-[11] https://www.semanticscholar.org/paper/ce2f2467c17d1683ea117ac35efbc63d685f6f83
-[12] https://www.semanticscholar.org/paper/b38a527eaf552280e76c75ec1a575198fc5ab306
-[13] https://blog.dailydoseofds.com/p/the-limitation-of-static-embeddings
-[14] https://blog.dailydoseofds.com/p/the-limitation-of-static-embeddings/comments
-[15] https://dev.to/ahikmah/understanding-the-evolution-of-word-representation-static-vs-dynamic-embeddings-5331
-[16] https://en.wikipedia.org/wiki/Word_embedding
-[17] https://qdrant.tech/blog/static-embeddings/
-[18] https://www.semanticscholar.org/paper/7ff512456664d79de0efa8e5bd551b18c552fc86
-[19] https://arxiv.org/abs/2504.00428
-[20] https://www.nature.com/articles/s41598-022-21149-9
-[21] https://pmc.ncbi.nlm.nih.gov/articles/PMC11565583/
-[22] https://botpenguin.com/glossary/transformer-architecture
-[23] https://www.galileo.ai/blog/self-evaluation-ai-agents-performance-reasoning-reflection
-[24] https://roboticsbiz.com/comparing-four-cognitive-architectures-soar-act-r-clarion-and-dual/
-[25] https://proceedings.mlr.press/v48/kumar16.html
-[26] https://arxiv.org/html/2410.09283v1
-[27] https://www.linkedin.com/pulse/limitations-transformers-deep-dive-ais-current-future-lozovsky-mba-vrrdc
-[28] https://arxiv.org/html/2412.06769v1
-[29] https://en.wikipedia.org/wiki/Soar_(cognitive_architecture)
-[30] https://www.science.org/doi/10.1126/sciadv.ado1058
-[31] https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space
-
-
 ## Authorship & License
 
 Conceived and developed by **Federico Giampietro & Eva**  
