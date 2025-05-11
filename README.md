@@ -38,6 +38,13 @@ Solving this will unlock the emergence of **creativity** within non-biological m
 
 For a full technical comparison with existing AI architectures, see [LSSA-more](./LSSA-overview.md).
 
+## Documentation
+
+Full documentation is available in the `docs` folder:
+
+- [English version](./Doc/en/)
+- [Italian version](./Doc/it/)
+
 ---
 
 ## Authorship & License
