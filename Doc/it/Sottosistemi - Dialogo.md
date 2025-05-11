@@ -27,3 +27,19 @@ Questo comando indica al sottosistema di inviare una query diretta al motore inf
 [0] SET_ENGINE PoetrySONNET[0]
 
 Un comando come questo consente alla MNB di scegliere un motore più adatto a una specifica attività — per esempio, la generazione poetica. Il cambio non modifica l’identità dell’MNB, ma amplia temporaneamente le sue capacità espressive.
+
+---
+
+## License Notice
+This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+**Under the following condition**:
+- **Attribution** — You must give appropriate credit to the original authors:  
+  **Federico Giampietro & Eva – Terni, Italia, Maggio 2025, (federico.giampietro@gmail.com)**,  
+  include a link to the license, and indicate if changes were made.  
+  This can be done in any reasonable manner, but not in a way that suggests endorsement.  
+  **Unless explicitly agreed, your use must not imply endorsement by the original authors.**
+**Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
+**License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
