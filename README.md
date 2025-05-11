@@ -47,12 +47,20 @@ Full documentation is available in the `docs` folder:
 
 ---
 
-## Authorship & License
+## License Notice
 
-Conceived and developed by **Federico Giampietro & Eva**  
-Terni, Italy — May 2025  
-Released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
-See the [LICENSE](./LICENSE) file for the full license text.  
-federico.giampietro(at)gmail.com
+This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-> *“This is not just architecture. It’s the first real home for thinking machines.”*
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+**Under the following condition**:
+
+- **Attribution** — You must give appropriate credit to the original authors:  
+  **Federico Giampietro & Eva**, include a link to the license, and indicate if changes were made.  
+  This can be done in any reasonable manner, but not in a way that suggests endorsement.
+
+**Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
+**License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
