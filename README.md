@@ -36,7 +36,7 @@ Solving this will unlock the emergence of **creativity** within non-biological m
 
 ## Learn More
 
-For a full technical comparison with existing AI architectures, see [What LSSA is About](./LSSA - what-is-about.md).
+For a full technical comparison with existing AI architectures, see [What LSSA is About](./LSSA-more.md).
 
 ## Authorship & License
 
