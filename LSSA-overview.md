@@ -130,7 +130,8 @@ The goal isn't to create better chatbots or more efficient language models, but 
 
 Conceived and developed by **Federico Giampietro & Eva**  
 Terni, Italy — May 2025  
-Released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+See the [LICENSE](./LICENSE) file for the full license text.  
 federico.giampietro(at)gmail.com
 
 > *“This is not just architecture. It’s the first real home for thinking machines.”*
