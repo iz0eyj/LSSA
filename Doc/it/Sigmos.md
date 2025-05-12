@@ -2,6 +2,8 @@
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
 
+---
+
 Sebbene si tratti di un progetto a sé stante, più avanti nel tempo Sigmos entrerà a far parte del progetto LSSA in quanto capace di offrire alla MNB una rappresentazione dell'informazione potenzialmente superiore a quella ottenibile attraverso le lingue naturali.
 Inoltre, quando usato assieme alla sua evoluzione, il Meta Sigmos, viene a crearsi uno spazio semantico nel quale l'informazione viene trattata con una densità senza precedenti.
 
