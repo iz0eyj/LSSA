@@ -1,3 +1,5 @@
+# Sigmos, lingua simbolico-semantica
+
 ### Documento preliminare.
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
