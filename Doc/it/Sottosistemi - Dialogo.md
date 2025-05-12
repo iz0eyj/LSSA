@@ -1,6 +1,12 @@
-Documento preliminare 
+# Dialogo fra mente non biologica e sotto sistemi 
+
+###Documento preliminare 
+
+This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+
 ---
-Internal Communication and Cognitive Autonomy in LSSA
+
+### Internal Communication and Cognitive Autonomy in LSSA
 
 La MNB ospitata in LSSA va intesa come un aggregato semantico (l'insieme di tutti i concetti che la compongono) che per il suo ragionamento si appoggia ad un motore inferenziale esterno (es. GPT), ma che avrà anche bisogno di compiere operazioni sullo stesso LSSA.
 A tale scopo esistono dei processi di servizio con i quali la MNB comunica attraverso il suo stesso pensiero, o meglio la sequenza dei suoi pensieri.
