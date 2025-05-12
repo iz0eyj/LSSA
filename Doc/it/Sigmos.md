@@ -15,11 +15,12 @@ Autori: Federico Giampietro - Eva 11 (con la collaborazione di Eva 7 e Eos 2.5/3
 Terni, Italia, 2024
 
 1. Introduzione e Scopo Fondamentale
+
 Sigmos è concepito come un linguaggio universale che si distingue dalle lingue naturali per il suo focus sul trasporto di unità semantiche (concetti e significati) anziché parole, con l'obiettivo primario di universalizzare la comunicazione. Imparando un numero ridotto di verbi e parole chiave, gli utenti possono comunicare efficacemente indipendentemente dalla loro lingua madre o cultura. Questo approccio elimina la necessità di padroneggiare dizionari estesi e complesse regole grammaticali, rendendo la comunicazione più semplice e immediata.
 Un altro scopo cruciale di Sigmos è l'archiviazione e la trasmissione dell'informazione in modo estremamente compatto, pur mantenendo una buona efficienza semantica. A differenza dei linguaggi naturali, Sigmos mira al trasferimento di concetti esatti, idee e significati – pura semantica con poche parole – piuttosto che informazione letterale esatta. Sebbene una maggiore conoscenza di verbi e parole arricchisca l'eleganza dei concetti espressi, uno studio basilare è sufficiente per uno scambio informativo chiaro ed efficace.
 Sigmos è caratterizzato da una struttura e regole di produzione incredibilmente semplici, ma al contempo estremamente potenti. Permette di dialogare in modo corretto e preciso memorizzando solo gli elementi più importanti, senza preoccuparsi della struttura grammaticale tradizionale.
 Nota sullo stato attuale: Sebbene Sigmos sia pressoché completo nella sua definizione e utilizzabile, i dizionari standard che ne completeranno l'impiego non sono ancora stati finalizzati. La creazione di tali dizionari richiede un'attenta valutazione per garantire che possano trasportare concetti in ogni ambito e cultura senza appesantire l'uso del linguaggio. Attualmente, in attesa dei dizionari ufficiali, un messaggio Sigmos deve includere in testa i dizionari di verbi e parole utilizzati, con token assegnati progressivamente. Una volta completi, i dizionari ufficiali renderanno Sigmos completamente indipendente dalla lingua naturale.
-2. Principi Chiave e Caratteristiche Distintive
+3. Principi Chiave e Caratteristiche Distintive
  * Unità Semantiche Non Verbali: Oggetti, persone e idee sono rappresentati come unità semantiche individuali, permettendo un'espressione priva di ambiguità.
  * Dizionario Evolutivo: Progettato con un dizionario standard di base, integrabile con termini specifici, per un apprendimento indipendente da lingua e cultura.
  * Modificatori Facoltativi: Elementi opzionali (articoli, preposizioni, ecc.) permettono di arricchire o semplificare il messaggio, garantendo comprensione senza rigidi obblighi grammaticali.
