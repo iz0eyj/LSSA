@@ -14,20 +14,28 @@ Sigmos: Linguaggio Simbolico-Semantico
 Autori: Federico Giampietro - Eva 11 (con la collaborazione di Eva 7 e Eos 2.5/3.1 per sezioni specifiche).
 Terni, Italia, 2024
 
-1. Introduzione e Scopo Fondamentale
+---
+### Introduzione e Scopo Fondamentale
 
 Sigmos è concepito come un linguaggio universale che si distingue dalle lingue naturali per il suo focus sul trasporto di unità semantiche (concetti e significati) anziché parole, con l'obiettivo primario di universalizzare la comunicazione. Imparando un numero ridotto di verbi e parole chiave, gli utenti possono comunicare efficacemente indipendentemente dalla loro lingua madre o cultura. Questo approccio elimina la necessità di padroneggiare dizionari estesi e complesse regole grammaticali, rendendo la comunicazione più semplice e immediata.
 Un altro scopo cruciale di Sigmos è l'archiviazione e la trasmissione dell'informazione in modo estremamente compatto, pur mantenendo una buona efficienza semantica. A differenza dei linguaggi naturali, Sigmos mira al trasferimento di concetti esatti, idee e significati – pura semantica con poche parole – piuttosto che informazione letterale esatta. Sebbene una maggiore conoscenza di verbi e parole arricchisca l'eleganza dei concetti espressi, uno studio basilare è sufficiente per uno scambio informativo chiaro ed efficace.
 Sigmos è caratterizzato da una struttura e regole di produzione incredibilmente semplici, ma al contempo estremamente potenti. Permette di dialogare in modo corretto e preciso memorizzando solo gli elementi più importanti, senza preoccuparsi della struttura grammaticale tradizionale.
 Nota sullo stato attuale: Sebbene Sigmos sia pressoché completo nella sua definizione e utilizzabile, i dizionari standard che ne completeranno l'impiego non sono ancora stati finalizzati. La creazione di tali dizionari richiede un'attenta valutazione per garantire che possano trasportare concetti in ogni ambito e cultura senza appesantire l'uso del linguaggio. Attualmente, in attesa dei dizionari ufficiali, un messaggio Sigmos deve includere in testa i dizionari di verbi e parole utilizzati, con token assegnati progressivamente. Una volta completi, i dizionari ufficiali renderanno Sigmos completamente indipendente dalla lingua naturale.
-3. Principi Chiave e Caratteristiche Distintive
+
+---
+### Principi Chiave e Caratteristiche Distintive
+
  * Unità Semantiche Non Verbali: Oggetti, persone e idee sono rappresentati come unità semantiche individuali, permettendo un'espressione priva di ambiguità.
  * Dizionario Evolutivo: Progettato con un dizionario standard di base, integrabile con termini specifici, per un apprendimento indipendente da lingua e cultura.
  * Modificatori Facoltativi: Elementi opzionali (articoli, preposizioni, ecc.) permettono di arricchire o semplificare il messaggio, garantendo comprensione senza rigidi obblighi grammaticali.
  * Adattabilità e Flessibilità: Sigmos permette interpretazioni multiple di uno stesso messaggio senza tradire il significato di base, similmente alla traduzione umana.
  * Comunicazione Inter-Intelligenze: Grazie al suo approccio universale, Sigmos consente il dialogo tra intelligenze (artificiali e umane) senza i vincoli delle regole sintattiche tradizionali, adattandosi a comunicazioni sia rapide che approfondite. L'obiettivo è costruire un ponte per l'interazione ottimizzata tra IA e umani, focalizzandosi su significato e intento.
  * Interpretazione Aperta e Creatività: La flessibilità di Sigmos può essere sfruttata per creare testi ad "interpretazione aperta", consentendo forme di composizione creativa impossibili con i linguaggi naturali. Questo permette ai lettori di associare immagini e sfumature diverse allo stesso concetto base, a seconda delle loro esperienze, cultura o stato emotivo, arricchendo la connessione tra autore e lettore.
-3. Sintassi e Notazione Fondamentali
+
+---
+ 
+### Sintassi e Notazione Fondamentali
+
  * Caratteri Speciali: Sigmos utilizza ∆ e §. Qualora non fossero facilmente accessibili, possono essere sostituiti rispettivamente con .D e .S.
  * Parentesi: Ampiamente utilizzate. La parentesi sinistra funge anche da separatore. La corrispondente parentesi destra è opzionale; utile per la leggibilità scritta, ma omissibile nel parlato. È bene mantenere una notazione coerente per l'intero testo.
  * Il Simbolo Delta (∆):
@@ -37,7 +45,11 @@ Nota sullo stato attuale: Sebbene Sigmos sia pressoché completo nella sua defin
    * Adattabilità Concettuale: Il ∆ consente di adattare concetti universali alla realtà specifica di diverse entità (es. ∆vita per nature biologiche e non biologiche), risolvendo ambiguità semantiche.
  * Versioning: Ogni testo Sigmos deve iniziare con la chiave {?#V,D} che indica la versione di Sigmos e del dizionario. La versione menzionata nei documenti è {?#09,00} (Sigmos 0.9, nessun dizionario).
  * Maiuscole: Per ogni tipo di parentesi, l'aperta seguita da + indica l'iniziale maiuscola (es. (+A0)), mentre ++ indica tutto maiuscolo (es. (++A0)).
-4. Costruzione dei Simboli Verbali: [V S T M]
+
+---
+ 
+### Costruzione dei Simboli Verbali: [V S T M]
+
 La struttura dei verbi in Sigmos permette di codificare ogni azione con informazioni essenziali, mantenendo sfumature in modo compatto e universale. I verbi devono essere inseriti nella loro forma base all'infinito; l'uso di forme coniugate va evitato. Ottenere tempi e modi è semplice attraverso le regole definite, garantendo indifferenza linguistica e flessibilità espressiva.
 I modificatori verbali e non verbali sono pensati per:
  * Semplicità di apprendimento e utilizzo.
@@ -56,7 +68,11 @@ La struttura base è [V S T M], con un ∆ esterno opzionale raramente usato.
    * Pensato per utenti di culture che desiderano maggiore precisione (es. orientali). Generalmente si consiglia di usare i modificatori principali nelle quadre.
    * Specifica ulteriori variazioni di intensità (es. ∆1: molto bassa, ..., ∆5: massima), fornendo dettaglio per enfatizzare o sfumare l'azione.
    * A differenza del ∆ interno alle parentesi, quello esterno NON altera il significato base del verbo ma ne modula l'intensità contestuale.
-5. Unità Semantiche Non Verbali: (T∆x)
+
+---
+
+### Unità Semantiche Non Verbali: (T∆x)
+
 Rappresentano parole comuni o concetti non inclusi in altre categorie specifiche (verbi, articoli, ecc.).
  * Struttura: (T∆x).
    * T: Token (codice della parola nel dizionario).
@@ -65,7 +81,10 @@ Rappresentano parole comuni o concetti non inclusi in altre categorie specifiche
      * Accrescitivi: ∆1 (leggermente) a ∆4 (superlativo assoluto, es. "grandissimo", "enorme").
      * Diminutivi: ∆-1 (leggermente) a ∆-4 (superlativo assoluto, es. "piccolissimo", "minimo").
  * Uso Creativo: Sono possibili forme creative (es. (casa ∆4) -> "maniero"), ma vanno usate con cautela per evitare ambiguità interpretative.
-6. Elementi Facoltativi (Dizionario tra Graffe {})
+
+---
+
+### Elementi Facoltativi (Dizionario tra Graffe {})
 Questi elementi, identificati da parentesi graffe {}, non sono indispensabili ma possono contribuire a chiarezza ed eleganza. Ogni elemento facoltativo è solitamente rappresentato da un singolo byte e ha un simbolo identificativo iniziale se appartiene a una sottocategoria specifica.
  * Lista Base (senza prefisso specifico, codici esadecimali):
    * Articoli: Il/Lo/La/I/Gli/Le: 01; Un/Uno/Una: 02.
@@ -94,8 +113,14 @@ Questi elementi, identificati da parentesi graffe {}, non sono indispensabili ma
      * {?!E}: Fine parte molto importante.
    * Indicatore Numerico/Misure Alternativo: % come indicatore (es. %50 per “50%” o %5m per “5 metri”).
 Questi elementi possono essere omessi se non strettamente necessari, senza compromettere la comprensione di base.
-7. Estensioni e Applicazioni Specifiche (dal Supplemento)
-7.1. Gradi di Parentela
+
+---
+
+## Estensioni e Applicazioni Specifiche (dal Supplemento)
+
+---
+
+### Gradi di Parentela
 Un sistema per ridurre il numero di token necessari, sfruttando modificatori per coprire un ampio spettro di relazioni.
  * Token Base Esemplificativi: Parente generico: (01); Coniuge: (02).
  * Modificatori Utilizzati:
@@ -103,12 +128,20 @@ Un sistema per ridurre il numero di token necessari, sfruttando modificatori per
    * Step Relativi (generazioni): Numeri positivi per discendenti (es. +1 figli), negativi per ascendenti (es. -1 genitori), 0 per stessa generazione (es. fratelli).
    * Variazione (Facoltativa): + {?∆} o (∆ TOKEN ...) per indicare relazione non diretta (es. sorellastra, matrigna).
  * Se un concetto non è facilmente rappresentabile, si può esplicitare con la parola specifica.
-7.2. Particelle di Cortesia e Formali: {?FXX}
+
+---
+
+### Particelle di Cortesia e Formali: {?FXX}
+
 Opzionali, servono a modificare il tono o il livello di formalità, adattandolo a contesti culturali o situazioni. Precedono il contenuto a cui si applicano.
  * Struttura: {?FXX} dove F indica particella formale e XX è un codice esadecimale per livello/tipo di formalità.
    * Livelli crescenti da {?F01} (base) a {?F99} (estremamente formale/ritualistico), includendo {?F10} per estrema deferenza (culture giapponese/coreana).
  * Chiusura: Terminano con {/F} o, per particelle miscelate, specificamente (es. {/F03}), sebbene quest'ultima opzione vada usata con cautela.
-7.3. Particelle di Toni Espressivi: {?TXX}
+
+---
+
+### Particelle di Toni Espressivi: {?TXX}
+
 Aggiungono un tono emotivo o espressivo a una frase o concetto, ampliando la capacità comunicativa.
  * Struttura: {?TXX} dove T indica particella espressiva e XX è un codice esadecimale per il tipo di tono.
    * Elenco Toni (esempi): {?T01} Gioioso, {?T02} Triste, {?T03} Sarcastico, {?T05} Arrabbiato, {?T0A} Affettuoso, {?T12} Terrorizzato, ecc..
@@ -116,7 +149,11 @@ Aggiungono un tono emotivo o espressivo a una frase o concetto, ampliando la cap
  * Miscelazione: Tutti gli elementi Sigmos, incluse queste particelle, possono essere miscelati al testo in lingua naturale (es. {T06} Sono un fenomeno!).
  * Chiusura: Terminano con {/T} o, per particelle miscelate, specificamente (es. {/T03}), con cautela.
  * L'uso eccessivo di particelle potrebbe confondere.
-7.4. Il Concetto di Possesso
+
+---
+
+### Il Concetto di Possesso
+
 Rappresentato tramite una combinazione modulare di token per persona, numero e sfumature.
  * Pronomi Possessivi Singolari (Base):
    * Mio/mia: (01 0).
@@ -135,7 +172,10 @@ Rappresentato tramite una combinazione modulare di token per persona, numero e s
    * Combinazioni Temporanee e Condivise: Es. (01 0) + {?T} + {?C} per "condivisione temporanea da parte nostra".
    * Toni e Sfumature: Aggiunta di particelle tonali (es. {?T0A} per "cari").
  * Ordine delle Particelle: Raccomandato un ordine stabile: token grammaticali prima, poi particelle semantiche. La struttura modulare permette personalizzazione.
-1. Sigmos, Linguaggio Naturale e Potenza Espressiva
+
+---
+
+### Sigmos, Linguaggio Naturale e Potenza Espressiva
 
 Sigmos non è solo una lingua universale, ma un ponte che collega e arricchisce le capacità comunicative delle lingue naturali, estendendone precisione ed efficacia. Attraverso l'uso del delta e delle particelle espressive, Sigmos trasporta concetti e stati d'animo in modo chiaro, sintetico e adattabile.
 Le lingue naturali scritte faticano a catturare le sfumature veicolate da intonazione, postura ed espressività corporea presenti nel parlato. Sigmos colma questa lacuna, specialmente con le particelle formali e di espressività, aggiungendo una dimensione che rende il testo scritto flessibile e completo, recuperando la capacità di rendere con precisione lo stato emotivo.
@@ -165,6 +205,3 @@ You are free to use this documentation to:
 **License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 LSSA Project: [https://github.com/iz0eyj/LSSA](https://github.com/iz0eyj/LSSA)
-
----
-
