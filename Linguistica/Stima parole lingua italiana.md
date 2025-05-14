@@ -4,6 +4,9 @@
 
 ---
 
+**NOTA: La ragione per cui ho chiesto l'esclusione dei nomi propri da questo conteggio, comunque aggiunti nel computo successivo, è la necessità di avere stime separate per questa categoria.
+Questo offrirà un importante elemento di valutazione al classificatore.**
+
 ## **Introduzione: Definire l'Oggetto della Stima** 
 
 ### Chiarificazione della Richiesta e Obiettivi del Rapporto
