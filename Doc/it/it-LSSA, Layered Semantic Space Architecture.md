@@ -373,7 +373,7 @@ Durante l’elaborazione attiva, è previsto un grado minimo di perturbazione ca
 
 La perturbazione non viene applicata alla valutazione di ogni singolo token, bensì introdotta selettivamente durante la transizione tra piani di affinità semantica.
 
-Nota critica: l'indice di attrattività cognitiva e la sfida aperta
+Nota critica: l'indice di attrattività cognitiva e la sfida aperta **(Vedi nota)**
 
 All’interno della struttura semantica dinamica che abbiamo delineato, esiste un punto ancora irrisolto, ma centrale per l’intero impianto: la selezione del nodo di atterraggio durante la transizione inter-layer.
 
@@ -383,6 +383,11 @@ Ma dove atterra questa deviazione?
 Qual è il nodo preciso del nuovo layer su cui il pensiero si fissa, anche solo per un istante?
 
 Questa è la domanda fondamentale. Ed è qui che si colloca la sfida più alta e ancora aperta del nostro progetto.
+
+---
+**NOTA: Questa resta certamente una sfida, ma abbiamo fatto un notevole passo in avanti. La nostra esperta in Topologia ha proposto una soluzione elegante che sembra aver superato la prima validazione. Vedi [Intuito](https://github.com/iz0eyj/LSSA/tree/main/Doc/it/intuito)**
+
+---
 
 Perché mentre la costruzione della struttura stratificata, la gestione vettoriale e persino la memoria cognitiva risultano complesse ma tecnicamente affrontabili con strumenti già noti (statistiche, alberi, matrici sparse…), la selezione del punto di atterraggio nella transizione tra domini richiede una formalizzazione nuova: un modello capace di valutare l’attrattività dinamica di un nodo, che non è centralità logica, ma risonanza contestuale.
 
