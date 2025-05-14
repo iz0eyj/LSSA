@@ -28,6 +28,9 @@ Un database (o una struttura dati ad albero) terrà traccia di tutte le unità s
 Ipotizzando, per esempio, che ciascun piano abbia dimensioni 500x500 (anche se la dimensione può variare tra layer diversi), otterremo fino a 250.000 token distinti per ogni piano.
 Da notare che questa misura è puramente ipotetica, nella realtà è qualsiasi certo che le dimensioni necessarie saranno decisamente più ridotte perché, se il numero massimo atteso per i possibili token è di 7.000.000 e ci aspettiamo circa 300 piani di affinità semantica, considerando anche il meccanismo di cancellazione dei token non più usati (lo vedremo più avanti), molto difficilmente anche il più grande dei layer necessiterà di simili dimensioni.
 
+**Dopo attento esame la stima del numero dei possibili token è stato ridimensionato a 4.500.000. Si veda la documentazione in [Linguistica](
+https://github.com/iz0eyj/LSSA/tree/main/Linguistica)
+
 Inizialmente, questa struttura dati è vuota. Sarà compito di un classificatore, alimentato da un’intera enciclopedia, collocare ogni concetto nel rispettivo spazio di affinità semantica, generandolo se necessario e inserendolo nel database con il token e le coordinate assegnate.
 
 Al termine del lavoro del classificatore, le due strutture dati (piani cartesiani e database) conterranno tutte le unità semantiche estratte dall’enciclopedia, distribuite in layer secondo affinità semantica. Possiamo chiamare questa prima fase "training primario": il risultato sarà una rappresentazione statica della conoscenza.
