@@ -1,3 +1,11 @@
+### (CogniTopo, Topologia Cognitiva)
+
+This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+
+Questi appunti descrivono una nuova rappresentazione dell'informazione nello spazio vettoriale che supera le limitazioni dei vettori multidimensionali standard, organizzando le unità semantiche in livelli (layer) separati secondo affinità tematiche chiaramente distinte.
+
+---
+
 Questi appunti descrivono una nuova rappresentazione dell'informazione nello spazio vettoriale che supera le limitazioni dei vettori multidimensionali standard, organizzando le unità semantiche in livelli (layer) separati secondo affinità tematiche chiaramente distinte.
 
 L'obiettivo è molteplice:
