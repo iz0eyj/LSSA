@@ -17,7 +17,12 @@ We kindly note that **any significant variation of this repository** will be tim
 
 These archives serve **historical documentation purposes** only.
 
-Feel free to verify each `.ots` file using [OpenTimestamps](https://opentimestamps.org) or compatible tools.
+Feel free to verify each file using:
+
+[OpenTimestamps](https://opentimestamps.org) 
+
 [Stanford University Timestamp](https://timestamp.stanford.edu/)
+
+or compatible tools.
 
 > Ideas belong to everyone — but **history belongs to those who write it down.**
