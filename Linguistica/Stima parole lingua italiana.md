@@ -234,11 +234,12 @@ Questa cifra, pur significativa, rappresenta il *potenziale* flessivo e combinat
 In conclusione, la lingua italiana, grazie alla sua ricca e complessa morfologia flessiva, in particolare verbale, possiede un patrimonio di forme flesse notevolmente superiore al suo numero di lemmi. La stima fornita, pur con i suoi intrinseci margini di approssimazione, offre una quantificazione ragionata di questa vasta capacità espressiva, aderendo ai specifici vincoli posti dalla richiesta. 
 
 ---
+
 ## License Notice
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
 
-This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license In the documentation section, and only this.
+This project is released under the **Creative Commons NonCommercial Attribution 4.0 International (CC BY-NC 4.0)** license In the documentation section, and only this.
 
 You are free to use this documentation to:
 - **Share** — copy and redistribute the material in any medium or format  
@@ -251,7 +252,7 @@ You are free to use this documentation to:
   **Unless explicitly agreed, your use must not imply endorsement by the original authors.**
 
 **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
-**License overview**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+**License overview**: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 LSSA Project: [https://github.com/iz0eyj/LSSA](https://github.com/iz0eyj/LSSA)
 
