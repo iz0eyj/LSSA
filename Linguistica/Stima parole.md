@@ -1,4 +1,4 @@
-This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+**This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
 ---
 
