@@ -31,7 +31,7 @@ Da notare che questa misura è puramente ipotetica, nella realtà è qualsiasi c
 ---
 
 **Dopo attento esame la stima del numero dei possibili token è stato ridimensionato a 4.500.000. Si veda la documentazione in [Linguistica](
-https://github.com/iz0eyj/LSSA/tree/main/Linguistica)**
+https://github.com/iz0eyj/LSSA/Doc/it/Linguistica)**
 
 ---
 
