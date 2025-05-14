@@ -1,6 +1,6 @@
 # **Stima del Numero Complessivo di Parole della Lingua Italiana: Un'Analisi Quantitativa delle Forme Flesse Esclusi i Nomi Propri** 
 
-This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+**This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
 ---
 
