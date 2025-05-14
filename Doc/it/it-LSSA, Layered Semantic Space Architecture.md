@@ -26,7 +26,7 @@ Ad esempio, un piano potrebbe raccogliere tutti i concetti relativi alla produzi
 Un database (o una struttura dati ad albero) terrà traccia di tutte le unità semantiche esistenti, indicando per ciascun token il layer di appartenenza e le coordinate precise. Così, ogni concetto avrà una posizione univoca all'interno della struttura.
 
 Ipotizzando, per esempio, che ciascun piano abbia dimensioni 500x500 (anche se la dimensione può variare tra layer diversi), otterremo fino a 250.000 token distinti per ogni piano.
-Da notare che questa misura è puramente ipotetica, nella realtà è qualsiasi certo che le dimensioni necessarie saranno decisamente più ridotte perché, se il numero massimo atteso per i possibili token è di 7.000.000 e ci aspettiamo circa 300 piani di affinità semantica, considerando anche il meccanismo di cancellazione dei token non più usati (lo vedremo più avanti), molto difficilmente anche il più grande dei layer necessiterà di simili dimensioni.
+Da notare che questa misura è puramente ipotetica, nella realtà è qualsiasi certo che le dimensioni necessarie saranno decisamente più ridotte perché, se il numero massimo atteso per i possibili token è di 7.000.000 (**vedi nota**) e ci aspettiamo circa 300 piani di affinità semantica, considerando anche il meccanismo di cancellazione dei token non più usati (lo vedremo più avanti), molto difficilmente anche il più grande dei layer necessiterà di simili dimensioni.
 
 ---
 
