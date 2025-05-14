@@ -1,5 +1,7 @@
 # Timestamp Archive
 
+Terni, Italy, May 2025
+
 For historical purposes, this folder contains timestamped snapshots of the repository.
 
 Each archived version includes:
