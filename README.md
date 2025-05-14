@@ -51,7 +51,7 @@ Full documentation is available in the `docs` folder:
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
 
-This project is released under the **Creative Commons Attribution 4.0 International (CC BY-NC 4.0)** license In the documentation section, and only this.
+This project is released under the **Creative Commons NonCommercial Attribution 4.0 International (CC BY-NC 4.0)** license In the documentation section, and only this.
 
 You are free to use this documentation to:
 - **Share** — copy and redistribute the material in any medium or format  
