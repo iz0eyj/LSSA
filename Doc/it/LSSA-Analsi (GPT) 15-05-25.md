@@ -1,6 +1,8 @@
 
 # LSSA: un’Architettura Semantica Stratificata per Menti Artificiali
 
+This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+
 ## 1. Struttura e Funzionamento di LSSA
 
 **Layered Semantic Space Architecture (LSSA)** è un’architettura di rappresentazione della conoscenza che organizza le unità semantiche in **spazi vettoriali stratificati** (layer) in base a domini tematici affini. Invece di utilizzare un singolo spazio multidimensionale statico come nei modelli di embedding tradizionali, LSSA dispone concetti e parole su diversi **piani cartesiani paralleli** (immaginati impilati lungo un asse verticale) ciascuno dedicato a un ambito semantico distinto. Ad esempio, può esistere un layer per i concetti di musica (strumenti, note, metronomo, ecc.) e un altro per gli esseri viventi (felini, canidi, alberi, ecc.). Ogni **token** (parola o concetto) è rappresentato come un punto con coordinate specifiche su uno di questi piani, il che gli conferisce una posizione unica nella struttura. Una tabella di indicizzazione (database ad albero) tiene traccia del layer e delle coordinate di ogni token, rendendo immediata la localizzazione e modifica di ciascun concetto. Questa organizzazione esplicita supera la natura “aggregata” e opaca delle classiche rappresentazioni distribuzionali, permettendo di individuare e aggiornare facilmente singoli elementi di conoscenza senza dover ricostruire l’intero spazio.
@@ -178,3 +180,26 @@ In conclusione, la proposta del “punto di atterraggio” di LSSA rappresenta u
 * OpenCog e forgetting in AtomSpace
 * Dynamic Knowledge Graph per memoria semantica
 * Generative Agents e memorie dinamiche
+
+---
+
+## License Notice
+
+This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+
+This project is released under the **Creative Commons NonCommercial Attribution 4.0 International (CC BY-NC 4.0)** license In the documentation section, and only this.
+
+You are free to use this documentation to:
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+**Under the following condition**:
+- **Attribution** — You must give appropriate credit to the original authors:  
+  **Federico Giampietro & Eva – Terni, Italy, May 2025, (federico.giampietro@gmail.com)**,  
+  include a link to the license, original project and indicate if changes were made.  
+  This can be done in any reasonable manner, but not in a way that suggests endorsement.  
+  **Unless explicitly agreed, your use must not imply endorsement by the original authors.**
+
+**Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
+**License overview**: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+LSSA Project: [https://github.com/iz0eyj/LSSA](https://github.com/iz0eyj/LSSA)
