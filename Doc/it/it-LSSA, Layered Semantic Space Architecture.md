@@ -2,9 +2,9 @@
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
 
-Questi appunti descrivono una nuova rappresentazione dell'informazione nello spazio vettoriale che supera le limitazioni dei vettori multidimensionali standard, organizzando le unità semantiche in livelli (layer) separati secondo affinità tematiche chiaramente distinte.
-
 ---
+
+Questi appunti descrivono una nuova 
 
 Questi appunti descrivono una nuova rappresentazione dell'informazione nello spazio vettoriale che supera le limitazioni dei vettori multidimensionali standard, organizzando le unità semantiche in livelli (layer) separati secondo affinità tematiche chiaramente distinte.
 
@@ -38,7 +38,12 @@ Inizialmente, questa struttura dati è vuota. Sarà compito di un classificatore
 
 Al termine del lavoro del classificatore, le due strutture dati (piani cartesiani e database) conterranno tutte le unità semantiche estratte dall’enciclopedia, distribuite in layer secondo affinità semantica. Possiamo chiamare questa prima fase "training primario": il risultato sarà una rappresentazione statica della conoscenza.
 
-Il Classificatore:
+---
+
+Il Classificatore
+
+**NOTA: Per comprendere appieno il ruolo del classificatore è fondamentale leggere [questo documento](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/Il%20Classificatore.md)**
+
 In apparenza il compito del classificatore è ardui, ma non nella realtà.
 Compito del classificatore non è introdurre materialmente il token nelle strutture dati, ma unicamente stabilire il suo corretto layer di affinità semantica.
 Ad esempio dovrà capire che il termine "il" dovrà essere inserito nel layer che ospita le strutture grammaticali, "gatto" in quello degli esseri viventi (forse separato fra regno animale e vegetale?) e così via.
