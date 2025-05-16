@@ -48,7 +48,7 @@ Full documentation is available in the `docs` folder:
 - [English version](./Doc/en/)
 - [Italian version (main)](./Doc/it/)
 
-**The main document of the project is the [Italian language] (https://github.com/iz0eyj/LSSA/blob/main/Doc/it/it-LSSA%2C%20Layered%20Semantic%20Space%20Architecture.md)**
+**The main document of the project is the [Italian language](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/it-LSSA%2C%20Layered%20Semantic%20Space%20Architecture.md)**
 
 ---
 
