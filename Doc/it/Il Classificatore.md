@@ -1,6 +1,6 @@
 # Approfondimento sul ruolo del Classificatore
 
-This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
+**This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
 
 Periodicamente facciamo compiere una analisi critica molto approfondita del materiale documentativo di LSSA; questo ci serve ad individuare potenziali criticità introdotte con le nuove aggiunte, ma anche a cogliere nuovi spunti da portare nel progetto.
