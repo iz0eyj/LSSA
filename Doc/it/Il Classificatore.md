@@ -218,6 +218,6 @@ Under the following conditions:
 
 ---
 
-- **Full license text**: [LICENSE](./LICENSE)  
+- **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE). 
 - **License summary**: https://creativecommons.org/licenses/by-nc/4.0/  
 - **LSSA Project**: https://github.com/iz0eyj/LSSA
