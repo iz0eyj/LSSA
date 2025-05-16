@@ -64,7 +64,7 @@ Al termine del lavoro del classificatore, le due strutture dati (piani cartesian
 
 ---
 
-Il Classificatore
+### Il Classificatore
 
 **NOTA: Per comprendere appieno il ruolo del classificatore è fondamentale leggere [questo documento](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/Il%20Classificatore.md)**
 
@@ -93,6 +93,7 @@ Nota: dal momento che verrà utilizzato un modello preesistente ritenuto affidab
 ---
 
 ### Molteplicità semantiche:
+
 Dal momento che le unità semantiche vengono ricavate dalla lettura di testi, è probabile che alcuni termini uguali rappresentino significati differenti.
 Nella rappresentazione comune questo è un problema, ma non nella nostra: a significati differenti corrisponderanno token differenti, che potranno all'occorrenza essere distribuiti su piani di affinità semantica altrettanto diversi.
 
@@ -105,7 +106,7 @@ Allo stesso modo nulla vieta di riposizionare un token che nel corso del tempo a
 
 ---
 
-Memoria interna dei nodi semantici: annotazioni cognitive dinamiche
+### Memoria interna dei nodi semantici: annotazioni cognitive dinamiche
 
 All’interno dello spazio vettoriale ogni token, oltre a fungere da nodo semantico e origine dei vettori cognitivi, può opzionalmente ospitare una memoria interna.
 Questa memoria non è preallocata, ma rappresentata da un semplice puntatore: se non viene utilizzata, non occupa spazio.
@@ -204,7 +205,8 @@ Pertanto, anziché creare nuovi vettori, incrementa semplicemente il peso associ
 ### L'inferenza
 
 **NOTA: L'inferenza di LSSA, sia verso il proprio motore inferenziale che verso l'utente, non è diretta ma viene gestita da un modulo software detto [MultiMind](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/frontend/MultiMind.md) che implementa un meccanismo complesso di gestione di entrambi gli aspetti.
-Scopo il MultiMind non è tanto fornire all'utente una risposta qualitativamente superiore, quanto arricchire la varietà semantica nei processi cognitivi dello stesso LSSA, andando ad integrare il meccanismo di [pensiero laterale](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Landing%20point.md) con [(analisi in)](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Analisi%20Landing%20Point%20(GPT).md)**
+Scopo il MultiMind non è tanto fornire all'utente una risposta qualitativamente superiore, quanto arricchire la varietà semantica nei processi cognitivi dello stesso LSSA, andando ad integrare il meccanismo di [pensiero laterale](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Landing%20point.md) con [(analisi in)](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Analisi%20Landing%20Point%20(GPT).md)
+Questo meccanismo non è indispensabile, LSSA può tranquillamente funzionare con una gestione classica dell'inferenza, tuttavia il suo impiego ha risvolti notevoli.**
 
 Durante l'inferenza, il sistema non costruisce solo relazioni tra concetti, ma traccia anche traiettorie nei domini semantici. La sequenza stessa dei layer attraversati diventa informazione, un livello di astrazione in cui non è solo importante cosa si connette, ma in quale ordine e in quale spazio concettuale avviene la connessione.
 Nelle rappresentazioni classiche, la dimensione del percorso inter-layer è completamente assente. L’inferenza avviene in uno spazio semantico non stratificato, privo di piani tematici espliciti. Il nostro modello, invece, rende visibile e strutturata la dinamica tra domini di significato, introducendo così un secondo livello di semantica: quella della traiettoria cognitiva.
