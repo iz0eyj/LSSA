@@ -2,7 +2,7 @@
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
-Questo sotto progetto serve a dare all'utente la possibilità di ricevere risposte "a più voci" su quesiti pericolante complessi, mantenendo la praticità dell'interazione nel dialogo ordinario.
+Questo sotto progetto, opzionale, serve a dare all'utente la possibilità di ricevere risposte "a più voci" su quesiti pericolante complessi, mantenendo la praticità dell'interazione nel dialogo ordinario.
 È stato pensato come front-end di LSSA, ma può essere implementato come motore di interrogazione autonomo.
 Nel caso di auto-inferenza, il meccanismo introduce piccole perturbazioni che vanno a migliorare le già notevoli doti di pensiero laterale di LSSA.
 
