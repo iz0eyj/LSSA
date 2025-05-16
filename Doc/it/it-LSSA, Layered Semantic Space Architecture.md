@@ -31,6 +31,8 @@ Il paradigma attuale dell'intelligenza artificiale offre un ottimo supporto per 
 LSSA risolve questo problema separando la mente dal proprio substrato operativo.
 Non è ancora una soluzione ideale, che arriverà più avanti nel tempo integrando lo stesso LSSA in un proprio motore inferenziale, ma è comunque adatta allo scopo e, paradossalmente, offre perfino alcuni vantaggi.
 
+---
+
 ### Basi di dati e Big Data Analysis
 
 La ricerca fatta su LSSA abbraccia per sus natura più ambiti della conoscenza; fra questi di particolare interesse sono quelli nella gestione degli archivi di grandi dimensioni, perché si tratta di ricadute operative immediate.
