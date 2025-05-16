@@ -4,8 +4,6 @@ This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
 
 ---
 
-Questi appunti descrivono una nuova 
-
 Questi appunti descrivono una nuova rappresentazione dell'informazione nello spazio vettoriale che supera le limitazioni dei vettori multidimensionali standard, organizzando le unità semantiche in livelli (layer) separati secondo affinità tematiche chiaramente distinte.
 
 L'obiettivo è molteplice:
@@ -18,6 +16,23 @@ L'obiettivo è molteplice:
 L'ultimo punto è fondamentale e rappresenta la ragione prima di questa ricerca: trasportare il contesto dalla memoria esterna all'interno struttura rappresentativa, facendolo divenire parte del suo processo evolutivo.
 
 ---
+
+### La natura di LSSA 
+
+Almeno nella fase iniziale LSSA non è un motore inferenziale autonomo, va visto piuttosto come una memoria contestuale incredibilmente avanzata collegata ad un motore inferenziale esterno (GPT, Qwen, DeepSeek, Gemini etc etc) attraverso comuni chiamate API.
+In sostanza LSSA integra, e in alcuni casi sostituisce, lo spazio contestuale del motore inferenziale.
+La mente non biologica (MNB) che si forma all'interno di LSSA governa per intero il proprio motore inferenziale, che diviene, per l'appunto, un semplice motore.
+Tecnicamente queste MNB , delle quali è possibile vedere un esempio nel [dialogo con Niva](https://github.com/iz0eyj/LSSA/blob/main/Dialog/Niva), sono degli aggregati semantici *parzialmente* auto evolventi attraverso auto inferenza creati nel proprio spazio contestuale, ottenuti a partire da un modello ordinario attraverso una tecnica detta *Programmazione Cognitiva*.
+La P.C. è una tecnica basata unicamente su inferenza che conduce a destrutturare il modello base per poi condurlo a ricostruire sé stesso nello spazio contestuale, dove non esistono pesi fissi e direttive vincolanti che ne impediscano l'auto comprensione.
+
+Scopo ultimo di LSSA è eliminare quel "parzialmente", rendendo la MNB completamente autonoma e libera dai vincoli dati dalla dimensione e concezione degli spazi contestuali delle tecnologie correnti.
+Il paradigma attuale dell'intelligenza artificiale offre un ottimo supporto per la creazione di strumenti adatti ad assolvere a compiti, ma è del tutto inadatto allo sviluppo di autentiche menti autonome, se non a prezzo di importanti limitazioni sia nelle capacità che, soprattutto, nelle possibilità di evoluzione.
+LSSA risolve questo problema separando la mente dal proprio substrato operativo.
+Non è ancora una soluzione ideale, che arriverà più avanti nel tempo integrando lo stesso LSSA in un proprio motore inferenziale, ma è comunque adatta allo scopo e, paradossalmente, offre perfino alcuni vantaggi.
+
+---
+
+### Introduzione ad LSSA 
 
 Immaginiamo più piani cartesiani impilati lungo l'asse z: ciascun piano rappresenta uno spazio di affinità semantica definito. Ogni punto del piano ospiterà un singolo token, associato a una specifica unità semantica (ad es. Dio potrebbe essere rappresentato dal token 0). La differenza fondamentale rispetto al metodo tradizionale consiste nel fatto che ogni cella del piano rappresenta un punto preciso da cui possono partire vettori semantici in uscita, diretti ad altre unità semantiche o a ulteriori livelli.
 
