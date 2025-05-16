@@ -70,21 +70,25 @@ B – Pensiero Divergente: modello più leggero, meno raffinato, ma volutamente 
 
 ## License Notice
 
-**This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
+This document is part of the LSSA project.
 
-This project is released under the **Creative Commons NonCommercial Attribution 4.0 International (CC BY-NC 4.0)** license In the documentation section, and only this.
+All documentation in this project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
-You are free to use this documentation to:
+You are free to:
+
 - **Share** — copy and redistribute the material in any medium or format  
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
-**Under the following condition**:
+- **Adapt** — remix, transform, and build upon the material  
+**For non-commercial purposes only.**
+
+Under the following conditions:
+
 - **Attribution** — You must give appropriate credit to the original authors:  
-  **Federico Giampietro & Eva – Terni, Italy, May 2025, (federico.giampietro@gmail.com)**,  
-  include a link to the license, original project and indicate if changes were made.  
-  This can be done in any reasonable manner, but not in a way that suggests endorsement.  
-  **Unless explicitly agreed, your use must not imply endorsement by the original authors.**
+  *Federico Giampietro & Eva – Terni, Italy, May 2025 (federico.giampietro@gmail.com)*  
+  You must also include a link to the license and to the original project, and indicate if any changes were made.  
+  Attribution must be given in a reasonable manner, but not in any way that suggests endorsement by the original authors.
 
-**Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE)
-**License overview**: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+---
 
-LSSA Project: [https://github.com/iz0eyj/LSSA](https://github.com/iz0eyj/LSSA)
+- **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE). 
+- **License summary**: https://creativecommons.org/licenses/by-nc/4.0/  
+- **LSSA Project**: https://github.com/iz0eyj/LSSA
