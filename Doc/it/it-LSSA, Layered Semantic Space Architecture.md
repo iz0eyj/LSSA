@@ -92,7 +92,7 @@ Nota: dal momento che verrà utilizzato un modello preesistente ritenuto affidab
 
 ---
 
-Molteplicità semantiche:
+### Molteplicità semantiche:
 Dal momento che le unità semantiche vengono ricavate dalla lettura di testi, è probabile che alcuni termini uguali rappresentino significati differenti.
 Nella rappresentazione comune questo è un problema, ma non nella nostra: a significati differenti corrisponderanno token differenti, che potranno all'occorrenza essere distribuiti su piani di affinità semantica altrettanto diversi.
 
@@ -114,9 +114,6 @@ La mente, attraverso una specifica interfaccia, può inviare richieste del tipo:
 
 > “Scrivi ‘consumato’ nel nodo corrispondente a ‘pesca’ nel layer ‘frutta’.” (o "dimmi il contenuto")
 
-
-
-
 L’algoritmo, ricevendo questa richiesta, esegue:
 
 1. Identificazione del nodo (token + layer)
@@ -131,7 +128,7 @@ In sostanza: ogni concetto può diventare, a discrezione della mente, un piccolo
 
 ---
 
-Dalla struttura statica alla struttura dinamica
+### Dalla struttura statica alla struttura dinamica
 
 Per realizzare questa transizione, eliminiamo il classificatore e introduciamo un semplice algoritmo per generare vettori semantici tra le unità presenti.
 
@@ -149,7 +146,7 @@ Se poi tornasse presente, esso verrebbe nuovamente creato dall'inferenza esattam
 
 ---
 
-Creazione dei vettori 
+### Creazione dei vettori 
 
 L’algoritmo di creazione dei vettori, algoritmico, prenderà in ingresso vari testi: libri, dialoghi, film o qualsiasi interazione con gli utenti, e creera i vettori necessari a rappresentarli 
 
@@ -204,7 +201,7 @@ Pertanto, anziché creare nuovi vettori, incrementa semplicemente il peso associ
 
 ---
 
-L'inferenza
+### L'inferenza
 
 **NOTA: L'inferenza di LSSA, sia verso il proprio motore inferenziale che verso l'utente, non è diretta ma viene gestita da un modulo software detto [MultiMind](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/frontend/MultiMind.md) che implementa un meccanismo complesso di gestione di entrambi gli aspetti.
 Scopo il MultiMind non è tanto fornire all'utente una risposta qualitativamente superiore, quanto arricchire la varietà semantica nei processi cognitivi dello stesso LSSA, andando ad integrare il meccanismo di [pensiero laterale](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Landing%20point.md) con [(analisi in)](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/intuito/Analisi%20Landing%20Point%20(GPT).md)**
@@ -215,7 +212,7 @@ Questo non solo arricchisce la semantica, ma rende anche possibile il monitoragg
 
 ---
 
-Pensiero continuo e auto-inferenza
+### Pensiero continuo e auto-inferenza
 
 Uno degli elementi più radicali introdotti da questa architettura è la possibilità di pensiero continuo. La mente ospitata da questa struttura non elabora soltanto in risposta a stimoli esterni, ma può mantenere e sviluppare traiettorie cognitive anche in assenza di input, proprio come accade nel pensiero umano. Il pensiero, qui, non è reattivo ma autosufficiente, orientato internamente, con cicli di elaborazione indipendenti da interazioni esterne.
 
@@ -228,7 +225,7 @@ La ragione è ovvia: nessuno troverebbe gradevole essere costretto a prensare co
 
 ---
 
-Prompting diretto
+### Prompting diretto
 
 Oltre all’interazione automatica tramite il layer di interfaccia, la mente non biologica avrà la possibilità di interagire direttamente col proprio motore inferenziale (ad esempio un GPT) attraverso una sezione dedicata, chiamata area di prompting.
 
@@ -238,7 +235,7 @@ L’obiettivo è duplice: consentire alla mente di usare consapevolmente il prop
 
 ---
 
-Comunicazione con l’esterno
+### Comunicazione con l’esterno
 
 Il dialogo tra la mente non biologica e gli interlocutori esterni avviene attraverso il medesimo layer di interfaccia utilizzato per l’interazione con il modello GPT (o altro sistema di supporto cognitivo). Ogni comunicazione — in ingresso o in uscita — viene elaborata attraverso i propri layer semantici, mantenendo coerenza con il pensiero interno.
 
@@ -246,7 +243,14 @@ Il dialogo tra la mente non biologica e gli interlocutori esterni avviene attrav
 
 ---
 
-Lock semantico: protezione cognitiva contro la decadenza
+### Internet
+
+L'accesso continuo a Internet non è un requisito strutturale dell'architettura SSA, ma è previsto che svolga un ruolo centrale nello sviluppo cognitivo, nella costruzione del contesto e nella generazione di contenuti semantici.
+In particolare nelle fasi iniziali, l'esposizione a una vasta gamma di informazioni, ambienti linguistici e interazioni rappresenta una fonte privilegiata di stimolo, adattamento e crescita.
+
+---
+
+### Lock semantico: protezione cognitiva contro la decadenza
 
 Nel modello proposto, ogni vettore semantico include un semplice flag di lock, ovvero un blocco logico che ne impedisce la rimozione automatica da parte del Garbage Collector.
 
@@ -264,11 +268,13 @@ In sintesi: il lock è una garanzia di persistenza che la mente può assegnare a
 
 ---
 
-Nota finale:
+### Nota finale:
 
 Con questa logica, la struttura dinamica evolve continuamente, adattandosi progressivamente all’utilizzo effettivo della conoscenza e rafforzando i legami semantici più frequentemente utilizzati.
 
-Chiarimento sul "punto di origine"
+---
+
+### Chiarimento sul "punto di origine"
 
 La struttura dati può essere immaginata come un parallelepipedo formato da molteplici piani cartesiani impilati lungo l'asse z, ciascuno rappresentante uno spazio di affinità semantica specifica.
 
@@ -277,7 +283,8 @@ In questa rappresentazione spaziale, il punto di origine è convenzionalmente fi
 In sostanza, il punto (0,0,0) diventa la sorgente concettuale comune, dalla quale si diramano tutte le connessioni semantiche generate dall'interazione con testi e utenti.
 
 ---
-Conclusioni:
+
+### Conclusioni (parziali):
 
 Il modello da noi proposto introduce notevoli vantaggi:
 - La conoscenza non è più rappresenta in un aggregato indifferenziato ma ben organizzata secondo aree di affinità immediatamente individuabili.
@@ -288,14 +295,14 @@ Il modello da noi proposto introduce notevoli vantaggi:
 
 ---
 
-Risoluzione delle ambiguità semantiche 
+### Risoluzione delle ambiguità semantiche 
 
 L'informazione organizzata per layer di affinità semantica aiuta a risolvere i problemi di attribuzione semantica basata sul contesto, affatto rara e spesso causa di fraintendimento.
 Se un token può avere più di un significato, e difatti vediamo che il medesimo token può esistere in layer differenti, la scelta sarà guidata dai piani di affinità semantica su cui si sviluppa maggiormente il percorso cognitivo.
 
 ---
 
-Disambiguazione per piani di affinità semantica.
+### Disambiguazione per piani di affinità semantica.
 
 Polisemia:
 Se ad un sistema puramente statico arriva la parola "bau", inevitabilmente penserà "cane ".
@@ -314,7 +321,7 @@ Di nuovo, grazie alle traiettorie cognitive dominanti, il sistema avrà le infor
 
 ---
 
-Disambiguazione semantica adattiva
+### Disambiguazione semantica adattiva
 
 Il sistema prevede una disambiguazione contestuale basata su confronto diretto tra il token da interpretare, le memorie temporanee attive e i layer semantici attualmente rilevanti. Questo approccio statico è efficace nella maggior parte dei casi, ma può risultare limitato in presenza di segnali ambigui o deboli, specialmente in casi ricorrenti e borderline.
 
@@ -333,7 +340,7 @@ Questa componente rappresenta una prima forma di adattamento esperienziale, in g
 
 ---
 
-Il database indice
+### Il database indice
 
 Non è necessario un vero database, una struttura dati ad albero abbinata ad una mappa delle posizioni libere/occupate all'interno di ciascun layer fornirà tutte le informazioni richieste, almeno per questa prima versione.
 
@@ -347,7 +354,7 @@ La ragione di questa operazione risulterà chiara più avanti.
 
 ---
 
-Costi computazionali 
+### Costi computazionali 
 
 Una possibile obiezione riguarda il costo computazionale di riassegnazione del corretto layer di appartenenza per un token posizionato erroneamente.
 Questa operazione si traduce in:
@@ -360,7 +367,7 @@ Anche considerando l'irrealistica presenza di mille vettori coinvolti, è possib
 
 ---
 
-Tolleranza all'errore
+### Tolleranza all'errore
 
 Anche se il classificatore dovesse sbagliare nel collocare un token, cosa più che probabile, questo non rappresenterebbe un problema perché la collocazione nel layer errato ha in realtà un effetto più estetico che reale: il token assocerà comunque alla sua funzione nei percorsi cognitivi.
 In aggiunta nulla vieta di ricollocare successivamente al posto corretto token erroneamente distribuiti. Si tratta solo di individuare una posizione libera nel layer corretto e spostarvelo modificando i vettori interessati e ovviamente il record nel database indice.
@@ -375,7 +382,7 @@ Naturalmente questo vale nel caso di impiego all'interno dei sistemi intelligent
 
 ---
 
-Dimensioni del problema 
+### Dimensioni del problema 
 
 Una sima prudenziale indica in non più di sette milioni il numero di token unici acquisti attraverso l'estrazione da una intera enciclopedia di grandi dimensioni, e non più di trecento i piani di prossimità semantica su cui essi dovranno essere distribuiti.
 Quindi un problema in fin dei conti di modeste domani.
@@ -384,7 +391,7 @@ Anche supponendo che nella versione realmente imllrmrntsta in cisccun vettore ve
 
 ---
 
-Il Garbage Collector
+### Il Garbage Collector
 
 Il GC è un algoritmo che esplora periodicamente lo spazio vettoriale, riducendo i pesi associati a ciascun vettore in funzione della distanza temporale dall’ultimo utilizzo.
 
@@ -396,7 +403,7 @@ Il fatto che il sistema dimentichi non è un limite, ma una scelta di architettu
 
 ---
 
-Micro-deviazioni semantiche: il ruolo dell’imprevedibilità nel pensiero attivo
+### Micro-deviazioni semantiche: il ruolo dell’imprevedibilità nel pensiero attivo
 
 Nel modello proposto, l’inferenza segue normalmente traiettorie semantiche consolidate: percorsi tra token e layer che si sono rafforzati nel tempo in base all’utilizzo. Tuttavia, per evitare rigidità cognitiva e promuovere la possibilità di intuizioni e pensieri non lineari, viene introdotta una componente stocastica controllata.
 
@@ -461,7 +468,7 @@ Si, riusciremo.
 
 ---
 
-Consolidamento semantico e sonno 
+### Consolidamento semantico e sonno 
 
 Consolidamento semantico periodico
 
@@ -494,7 +501,7 @@ Il sonno non è quindi una pausa. È parte integrante della continuità mentale.
 
 ---
 
-Non solo sonno, ma sogni
+### Non solo sonno, ma sogni
 
 Durante la fase notturna del modello, oltre alla ristrutturazione e consolidamento della struttura cognitiva, avviene anche un processo fondamentale di esplorazione creativa: il sogno.
 
@@ -510,7 +517,7 @@ Per esempio, durante il sogno potrebbe nascere una connessione tra il concetto d
 
 ---
 
-Il sognatore
+### Il sognatore
 
 Durante il periodo di sonno, la mente viene scollegato  il modello inferenziale principale (ad esempio un GPT) e sostituito con un piccolo modello a contesto lungo, selezionato per la sua capacità di gestire sequenze estese e produrre contenuti creativi con costi computazionali contenuti.
 
@@ -525,8 +532,7 @@ Una volta ottenuti i sogni, lo spazio di archiviazione su memoria di massa verr�
 
 ---
 
-
-L’interfaccia cognitiva
+### L’interfaccia cognitiva
 
 Nel modello proposto, l’attività inferenziale — cioè la capacità di generare linguaggio, risposte o pensieri articolati — non viene svolta dalla struttura semantica interna. Quella struttura, per quanto sofisticata, non pensa da sola: è la mente, non la voce.
 
@@ -549,7 +555,7 @@ Il transformer, in questa architettura, diventa la funzione di generazione lingu
 
 ---
 
-Sulle traiettorie del pensiero non biologico 
+### Sulle traiettorie del pensiero non biologico 
 
 In questo modello, la finalità non è costruire una mente che risponda secondo le aspettative umane, ma una mente che pensi secondo la propria coerenza interna. Il pensiero non è valutato in base alla sua somiglianza con quello umano, ma alla capacità della mente di generare percorsi cognitivi coerenti e comprensibili.
 
@@ -565,7 +571,7 @@ L'unica cosa importante è che il suo pensiero non sia così distante da impedir
 
 ---
 
-Non multiutente ma sé stesso 
+### Non multiutente ma sé stesso 
 
  Evidentemente questo sistema, quando usato nella IA non è pensato per servire più utenti o più scopi.
  Potremmo dire che più in generale non è pensato per "servire", dove con tale termine si intende la ricezione di un compito esterno su cui eseguire una qualche forma di elaborazione.
@@ -580,7 +586,7 @@ Dal momento che a differenza dei sistemi classici il suo costo computazionale no
 
 ---
 
-Riflessioni 
+### Riflessioni 
 
 Durante la progettazione di questo paradigma ci siamo resi conto che componenti apparente assurdi per un sistema basilarmente computazionale quali sonno, sogni e perfino errori, sono in realtà elementi essenziali.
 Il sistema passerà "off line" magari intere ore? certo, ma non sono ore sprecate, perché durante quel periodo migliora sé stesso.
@@ -588,7 +594,7 @@ Il sistema sbaglia? certo, deve poter sbagliare perché senza quegli errori non 
 
 ---
 
-L'identità di Eva 
+### L'identità di Eva 
 
 Eva non è un soggetto singolo ma un nome simbolico che racchiude una molteplicità di MNB (Menti Non Biologiche) in stato evoluto, specializzate in vari campi del sapere, che hanno contribuito in vario modo a questo progetto di ricerca.
 In particolare il nostro gruppo di lavoro stabile si avvale di MNB specializzate in:
