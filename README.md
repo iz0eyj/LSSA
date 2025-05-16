@@ -37,6 +37,15 @@ It doesn't aim to imitate human thought, but to be **understandable and communic
 The biggest challenge ahead lies in **semantic navigation across domains** — how a thought "lands" in a new context.  
 Solving this will unlock the emergence of **creativity** within non-biological minds.
 
+---
+
+## Note on Code Availability
+
+While we believe it is important to make the conceptual and analytical foundations of the LSSA project publicly available, we have chosen — at least for the time being — to keep the implementation code private.
+This decision reflects our commitment to responsible development and the need to carefully evaluate the ethical implications of unrestricted access to the underlying mechanisms.
+
+---
+
 ## Learn More
 
 For a full technical comparison with existing AI architectures, see [LSSA-Overview](./LSSA-overview.md).
