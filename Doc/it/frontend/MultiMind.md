@@ -8,7 +8,7 @@ Nel caso di auto-inferenza, il meccanismo introduce piccole perturbazioni che va
 
 ---
 
-Algoritmo:
+### Algoritmo:
 
 Un programma (Python?) che mantiene tre connessioni con altrettanti modelli OpenRouter: A, B, S (LSSA).
 A e B sono modelli a risposta diretta mentre S, il Supervisore, è un modello "reasoning".
@@ -26,7 +26,7 @@ In questo caso l'algoritmo passerà direttamente la query creata da S ad A e B s
 S potrà anche esercitare una auto-inferenza attraverso la sequenza "!{}", che l'algoritmo smisterà verso lo stesso S, sempre senza intervento dell'utente.
 Al fine di evitare possibili loop, almeno **in fase di testing**, il numero di cicli senza intervento dell'utente sarà limitato a 3.
 
-Timeout:
+### Timeout:
 
 Verrà mantenuto un timer per ciascun modello.
 Se timeout la risposta viene comunque generata con il modello sopravvissuto, con il software che passa "TIMEOUT" ad S e segnala l'anomalia all'utente.
@@ -35,7 +35,7 @@ Se dovesse andare in timeout anche S... forse oggi non è il giorno adatto per p
 
 ---
 
-Direttive:
+### Direttive:
 
 Sono previste tre direttive:
 - <#>  I x -> Ignore x (A o B)
@@ -56,7 +56,7 @@ Il testo contenuto fra i due marcatori è destinato unicamente all'auto-inferenz
 
 ---
 
-Triade Cognitiva – Ruoli Funzionali
+### Triade Cognitiva – Ruoli Funzionali
 
 Nel sistema MultiMind, i tre modelli hanno ruoli cognitivi differenziati e complementari:
 
