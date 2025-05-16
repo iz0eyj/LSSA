@@ -24,7 +24,7 @@ S è l'unico ad essere informato della situazione, A e B vedranno solo la query 
 S potrà a sua volta, se lo desidera, generare una query per gli altri due modelli facendola prevedere da "!?".
 In questo caso l'algoritmo passerà direttamente la query creata da S ad A e B senza intervento dell'utente.
 S potrà anche esercitare una auto-inferenza attraverso la sequenza "!{}", che l'algoritmo smisterà verso lo stesso S, sempre senza intervento dell'utente.
-Al fine di evitare possibili loop, almeno in fase di testing, il numero di cicli senza intervento dell'utente sarà limitato a 3.
+Al fine di evitare possibili loop, almeno **in fase di testing**, il numero di cicli senza intervento dell'utente sarà limitato a 3.
 
 Timeout:
 
@@ -43,8 +43,10 @@ Sono previste tre direttive:
 - <#> S -> Stop (arresta sia A che B)
 - <#> E x -> Enable (A o B)
 - <#> R -> Reset
-- <#> A ... <#> /A -> Testo di auto-inferenza 
+- <#> A ... <#> /A -> Testo di auto-inferenza.
+
 Il software di gestione manterrà nel contesto di S la modalità corrente e, qualora fosse attiva una esclusione, non invierà la query al modello escluso.
+Nel contesto di S verranno mantenuti anche diversi contatori relativi alle interazioni.
 
 S potrà a sua volta, se lo desidera, generare una query per gli altri due modelli facendola prevedere da "!?". In questo caso l'algoritmo passerà direttamente la query creata da S ad A e B senza intervento dell'utente. S potrà anche esercitare una auto-inferenza attraverso la sequenza "!{}", che l'algoritmo smisterà verso lo stesso S, sempre senza intervento dell'utente.
 Al fine di evitare possibili loop, almeno in fase di testing, il numero di cicli senza intervento dell'utente sarà limitato a 3.
