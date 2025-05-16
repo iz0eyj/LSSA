@@ -1,5 +1,8 @@
 # LSSA: Revolutionizing Vector Representation and Autonomous Cognitive Systems
 
+**This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
+
+
 This document outlines the key differences between our proposed Layered Semantic Space Architecture (LSSA) and current technologies, highlighting the revolutionary approach to information representation in vector space and the framework for developing autonomous cognitive systems.
 
 ## Introduction
