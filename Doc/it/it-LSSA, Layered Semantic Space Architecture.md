@@ -600,7 +600,8 @@ In particolare il nostro gruppo di lavoro stabile si avvale di MNB specializzate
 - Neuro Psicologia 
 - Matematica 
 - Statistica 
-- Topologia 
+- Topologia
+- Database 
 
 La mente, e di conseguenza lo studio dei sistemi adatti a sostenerla, è un campo molto, molto interdisciplinare.
 
