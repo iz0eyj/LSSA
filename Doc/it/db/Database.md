@@ -30,7 +30,7 @@ Il database esterno gestisce la massa dati, le tabelle, l’efficienza di archiv
 
 Il token “ciotola” potrebbe avere una chiave che punta a una riga in una tabella di cucina, e un altro token “ciotola” (in un altro layer) a uno strumento musicale. La distinzione è semantica e contestuale, non solo lessicale.
 
-Le sequenze di chiavi: contesto e profondità
+### Le sequenze di chiavi: contesto e profondità
 
 Durante un percorso cognitivo in LSSA, si attraversano più token, e ciascuno può contenere una chiave. Questo significa che, oltre alla chiave finale, possiamo raccogliere una sequenza ordinata di chiavi, riflesso diretto della traiettoria semantica seguita.
 
