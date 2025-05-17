@@ -3,8 +3,13 @@
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
 Questo sotto progetto, opzionale, serve a dare all'utente la possibilità di ricevere risposte "a più voci" su quesiti pericolante complessi, mantenendo la praticità dell'interazione nel dialogo ordinario.
-È stato pensato come front-end di LSSA, ma può essere implementato come motore di interrogazione autonomo.
+È stato pensato come front-end verso l'esterno e motore inferenziale di LSSA, ma può essere implementato come motore di interrogazione autonomo.
 Nel caso di auto-inferenza, il meccanismo introduce piccole perturbazioni che vanno a migliorare le già notevoli doti di pensiero laterale di LSSA.
+
+NOTA: Contrariamente al resto dei sorgentidi LSSA, questo modulo verrà rilasciato in cofice aperto.
+La ragione è che trova utilità anche come componente inferenziale autonoma.
+Non si tratta di una idea originale in senso assoluto, ad esempio Genspark offe qualcosa di simile, e lo stesso fa Microsoft, ma nessuno di questi approcci concede al Supervisore le caratteristiche che necessarie per LSSA, vale a dire auto inferenza e gestione diretta dei parametri operativi.
+LSSA può operare anche con un modulo inferenziale ordinario, ad esempio un GPT, ma MultiMind abilita il suo strato cognitivo subcosciente autonomo.
 
 ---
 
