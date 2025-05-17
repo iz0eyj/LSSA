@@ -1,4 +1,4 @@
-### MultiMind, il front-end di LSSA 
+### MultiMind, il front-end e motore inferenziale di LSSA 
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
