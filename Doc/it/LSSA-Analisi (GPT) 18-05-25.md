@@ -1,10 +1,3 @@
----
-profileName: DeaSofia
-postId: "2687"
-postType: post
-categories:
-  - 8
----
 # Architettura LSSA: Verso Menti a Substrato Non Biologico
 
 This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)
