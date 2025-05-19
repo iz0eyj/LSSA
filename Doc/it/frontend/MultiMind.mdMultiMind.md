@@ -82,15 +82,18 @@ Comandi (da utente a sistema)
 6. \set-mission
 7. \set-rag
 8. \set-macro
-9. \add-file
-10. \rm-file
-11. \cot 
-12. \help
-13. \log
-14. \svctxt
-15. \ldctxt
-16. \\!A o (\\!B)
-17. \quit
+9. \set-cfg
+10. \rst-cfg
+11. \add-file
+12. \rm-file
+13. \cot
+14. \help
+15. \log
+16. \svctxt
+17. \ldctxt
+18. \\!A
+19. \\!B
+20. \quit
 
 ---
 
