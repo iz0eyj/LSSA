@@ -83,17 +83,18 @@ Comandi (da utente a sistema)
 7. \set-rag
 8. \set-macro
 9. \set-cfg
-10. \rst-cfg
-11. \add-file
-12. \rm-file
-13. \cot
-14. \help
-15. \log
-16. \svctxt
-17. \ldctxt
-18. \\!A
-19. \\!B
-20. \quit
+10. \pr-stat
+11. \rst-cfg
+12. \add-file
+13. \rm-file
+14. \cot
+15. \help
+16. \log
+17. \svctxt
+18. \ldctxt
+19. \\!A
+20. \\!B
+21. \quit
 
 ---
 
