@@ -89,7 +89,8 @@ Comandi (da utente a sistema)
 13. \log
 14. \svctxt
 15. \ldctxt
-16. \quit
+16. \!t
+17. \quit
 
 ---
 
