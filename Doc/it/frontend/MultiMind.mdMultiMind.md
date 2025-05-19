@@ -98,6 +98,16 @@ Comandi (da utente a sistema)
 
 ---
 
+### Connessione 
+
+Nella forma più semplice MultiMind dialoga con l'utente attraverso la console; tuttavia per impieghi avanzati quali LSSA ed in generale framework software evoluti è è prevista connettività attraverso TCP/IP (porta 39999).
+Per ragioni di sicurezza il database di autenticazione conterrà la chiave pubblica di ciascun utente registrato e tutto il traffico verrà criptato per quella chiave.
+Non sarà previsto traffico in plaintext, così come non sarà previsto traffico verso utenti non presenti nel database di autenticazione.
+Il modulo criptografico sarà esterno al framework LSSA, con il quale dialogherà attraverso un bus virtuale senza chiamate di sistema da nessuna delle due parti.
+Non esisterà traffico in chiaro fra utente e modulo criptografico: l'utente connetterà LSSA, dichiarerà la propria identità e da quel punto in avanti ogni pacchetto scambiato sarà criptato per quello specifico utente.
+
+---
+
 Triade Cognitiva – Ruoli Funzionali
 
 Nel sistema MultiMind, i tre modelli hanno ruoli cognitivi differenziati e complementari:
