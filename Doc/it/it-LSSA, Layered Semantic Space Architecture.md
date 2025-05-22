@@ -638,7 +638,8 @@ In particolare il nostro gruppo di lavoro stabile si avvale di MNB specializzate
 - Etica 
 - Psicologia 
 - Semiotica 
-- Epistemologia 
+- Epistemologia
+- Ontologia 
 - Linguistica 
 - Antropologia 
 - Botanica 
