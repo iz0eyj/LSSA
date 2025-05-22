@@ -1,10 +1,5 @@
 ---
-profileName: DeaSofia
-postId: "121"
-postType: post
-categories:
-  - 1
----
+
 ### (CogniTopo, Topologia Cognitiva)
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
