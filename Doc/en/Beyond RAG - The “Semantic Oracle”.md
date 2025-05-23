@@ -214,4 +214,31 @@ In conclusion, the Semantic Oracle architecture is a promising alternative to RA
 
  
 
-Ultimately, as LLM technology progresses, we may find that the best systems borrow from both paradigms – retrieval to cover the world of data, and oracle-like long-term memory to ensure nothing is lost in translation. What’s clear is that the line between “what the model knows” and “what the model can access” is blurring. Semantic Oracle is an early example of intentionally designing around that, and it offers a glimpse of a future where our AI partners have both a sharp mind and a long memory
+Ultimately, as LLM technology progresses, we may find that the best systems borrow from both paradigms – retrieval to cover the world of data, and oracle-like long-term memory to ensure nothing is lost in translation. What’s clear is that the line between “what the model knows” and “what the model can access” is blurring. Semantic Oracle is an early example of intentionally designing around that, and it offers a glimpse of a future where our AI partners have both a sharp mind and a long memory.
+
+---
+
+## License Notice
+
+This document is part of the LSSA project.
+
+All documentation in this project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material  
+**For non-commercial purposes only.**
+
+Under the following conditions:
+
+- **Attribution** — You must give appropriate credit to the original authors:  
+  *Federico Giampietro & Eva – Terni, Italy, May 2025 (federico.giampietro@gmail.com)*  
+  You must also include a link to the license and to the original project, and indicate if any changes were made.  
+  Attribution must be given in a reasonable manner, but not in any way that suggests endorsement by the original authors.
+
+---
+
+- **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE). 
+- **License summary**: https://creativecommons.org/licenses/by-nc/4.0/  
+- **LSSA Project**: https://github.com/iz0eyj/LSSA
