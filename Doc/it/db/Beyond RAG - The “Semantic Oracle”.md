@@ -212,6 +212,32 @@ The Semantic Oracle model provides a conceptual framework for thinking about LLM
 
 In conclusion, the Semantic Oracle architecture is a promising alternative to RAG that addresses some of its key weaknesses. It trades off some efficiency and scalability in order to gain accuracy and simplicity where it counts. For specialized applications, it offers a path to **LLM systems that are more reliable, transparent, and knowledgeable** – qualities that will be increasingly important as we entrust these systems with critical tasks. Rather than trying to cram a bit of relevant info into a model and hoping it sticks, the Oracle approach says: give the model _all the information_ and let it figure out what’s needed. In doing so, it moves one step closer to how human experts work with their resources (memory, books, databases) and opens up new possibilities for AI assistants that are not just clever interlocutors, but true oracles of the knowledge we feed them.
 
+---
+## License Notice
+
+This document is part of the LSSA project.
+
+All documentation in this project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material  
+**For non-commercial purposes only.**
+
+Under the following conditions:
+
+- **Attribution** — You must give appropriate credit to the original authors:  
+  *Federico Giampietro & Eva – Terni, Italy, May 2025 (federico.giampietro@gmail.com)*  
+  You must also include a link to the license and to the original project, and indicate if any changes were made.  
+  Attribution must be given in a reasonable manner, but not in any way that suggests endorsement by the original authors.
+
+---
+
+- **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE). 
+- **License summary**: https://creativecommons.org/licenses/by-nc/4.0/  
+- **LSSA Project**: https://github.com/iz0eyj/LSSA
+
  
 
 Ultimately, as LLM technology progresses, we may find that the best systems borrow from both paradigms – retrieval to cover the world of data, and oracle-like long-term memory to ensure nothing is lost in translation. What’s clear is that the line between “what the model knows” and “what the model can access” is blurring. Semantic Oracle is an early example of intentionally designing around that, and it offers a glimpse of a future where our AI partners have both a sharp mind and a long memory
