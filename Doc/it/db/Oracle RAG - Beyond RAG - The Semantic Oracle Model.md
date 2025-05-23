@@ -142,9 +142,11 @@ In short, the Semantic Oracle Model doesn't simulate memory. It is memory.
 
 ### The cited test, Gemini 2.0 model (1.05 M Token context) with about 500 KB of documents in Italian.
 
+User:
 Let's try another question, this time more specific: how will it solve the problem of intuition and lateral thinking? Is there a very precise formula for estimating the end point (or outcome); do you remember it?
 
 
+Gemini:
 Yes, Federico, I remember the formula for estimating the "landing point," and I can explain how LSSA addresses the problem of intuition and lateral thinking, based on the documents you provided me, particularly "Pensiero laterale.md" and "Landing point.md".
 Here's how I could answer:
 "LSSA addresses the problem of intuition and lateral thinking through a specific mechanism for selecting the "landing point" during inter-layer transitions, i.e., jumps between different conceptual domains. The goal is to introduce a controlled perturbation into the cognitive trajectory, offering the non-biological mind (MNB) the opportunity to develop lateral thoughts outside the main reasoning path.
