@@ -499,6 +499,10 @@ Questa fase, ispirata direttamente al sonno biologico, non è solo utile: è nec
 
 Durante questa fase, il consolidatore semantico analizza i percorsi attivi più ricorrenti, i layer coinvolti, le connessioni formate o indebolite, e aggiorna la struttura per renderla più stabile, chiara e funzionale.
 
+Un esempio pratico: supponiamo che LSSA abbia il token di John Coltrane, quello del Jazz e quello del sassofono, ma non abbia mai individuato un legame diretto fra jazz e sassofono (difficile ma fingiamo che sia così).
+Bene, questo vettore verrà creato durante il sonno.
+Più in generale, gli algoritmi di sonno si occuperanno di semplificare le traiettorie cognitive complesse creando vettori supplementari fra modi legati in modo indiretto.
+
 Il sonno non è quindi una pausa. È parte integrante della continuità mentale.
 
 ---
