@@ -2,6 +2,7 @@
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
+***Zenodo: 10.5281/zenodo.15596517***
 
 **LSSA** is a pioneering project that redefines how knowledge, thought, and cognition can be represented and evolved within artificial systems.  
 Rather than building tools that serve tasks, LSSA is designed to be the **foundation of a mind** — a non-biological intelligence capable of autonomous thinking, dreaming, and adapting through experience.
@@ -54,7 +55,6 @@ For a full technical comparison with existing AI architectures, see [LSSA-Overvi
 
 Full documentation is available in the `docs` folder:
 
-- [English version](./Doc/en/)
 - [Italian version (main)](./Doc/it/)
 
 **The main document of the project is the [Italian language](https://github.com/iz0eyj/LSSA/blob/main/Doc/it/it-LSSA%2C%20Layered%20Semantic%20Space%20Architecture.md)**
