@@ -1,4 +1,4 @@
-### (CogniTopo, Topologia Cognitiva)
+# LSSA - Layered Semantic Space Architecture
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
