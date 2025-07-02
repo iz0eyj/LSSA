@@ -9,7 +9,7 @@ Terni, Italy, May 2025
 For historical purposes, this folder contains timestamped snapshots of the repository.
 
 Each archived version includes:
-- A `.zip` file with a full copy of the repository at a given point in time
+- A `.zip` file with a full copy of the repository at a given point in time (Available on request to save space on GitHub).
 - An `.ots` file containing the OpenTimestamps proof of existence for that archive Open TimeStamp.
 - A '.json' file slso containing proof of existence in Stanford University Time Stamp version.
 
