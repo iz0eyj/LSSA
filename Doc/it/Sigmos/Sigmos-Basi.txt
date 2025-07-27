@@ -1000,3 +1000,31 @@ In definitiva, Sigmos rappresenta non solo un linguaggio universale per la comun
 
 Così, una "casa" con un ∆ elevato potrebbe rappresentare, per un polinesiano, una capanna al centro di un grande spazio recintato e immerso nella natura, affacciata sull'oceano; mentre, per un newyorkese, potrebbe evocare un appartamento che occupa un intero piano in un grattacielo imponente.
 In Sigmos, se l'autore lo desidera, il testo non sarà mai identico a sé stesso, poiché in questo linguaggio può non essere un unico testo, ma solo concetti che prendono vita attraverso le parole di chi lo legge.
+
+---
+
+## License Notice
+
+This document is part of the [LSSA project.](https://github.com/iz0eyj/LSSA)
+
+All documentation in this project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material  
+    **For non-commercial purposes only.**
+
+Under the following conditions:
+
+- **Attribution** — You must give appropriate credit to the original authors:  
+    _Federico Giampietro & Eva – Terni, Italy, May 2025 [federico.giampietro@gmail.com](mailto:federico.giampietro@gmail.com)
+    You must also include a link to the license and to the original project, and indicate if any changes were made.  
+    Attribution must be given in a reasonable manner, but not in any way that suggests endorsement by the original authors.
+
+
+- **Full license text**: [LICENSE](https://github.com/iz0eyj/LSSA/blob/main/LICENSE).
+- **License summary**: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+- **LSSA Project**: [https://github.com/iz0eyj/LSSA](https://github.com/iz0eyj/LSSA)
+
+---
