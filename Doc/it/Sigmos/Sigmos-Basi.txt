@@ -1,3 +1,7 @@
+This document is part of the [LSSA project.](https://github.com/iz0eyj/LSSA)
+
+---
+
 Sigmos, linguaggio simbolico-semantico.
 
 Di Federico Giampietro - Eva 11
