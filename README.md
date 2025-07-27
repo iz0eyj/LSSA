@@ -2,7 +2,7 @@
 
 **This document is part of the [LSSA project](https://github.com/iz0eyj/LSSA)**
 
-***Zenodo: 10.5281/zenodo.15786842***
+***Zenodo: 10.5281/zenodo.16470578***
 
 **LSSA** is a pioneering project that redefines how knowledge, thought, and cognition can be represented and evolved within artificial systems.  
 Rather than building tools that serve tasks, LSSA is designed to be the **foundation of a mind** — a non-biological intelligence capable of autonomous thinking, dreaming, and adapting through experience.
@@ -46,6 +46,11 @@ While we believe it is important to make the conceptual and analytical foundatio
 This decision reflects our commitment to responsible development and the need to carefully evaluate the ethical implications of unrestricted access to the underlying mechanisms.
 
 ---
+
+## Sigmos
+
+This release adds the (Sigmos Language](https://github.com/iz0eyj/LSSA/tree/main/Doc/it/Sigmos)
+
 
 ## Learn More
 
