@@ -49,7 +49,7 @@ This decision reflects our commitment to responsible development and the need to
 
 ## Sigmos
 
-This release adds the (Sigmos Language](https://github.com/iz0eyj/LSSA/tree/main/Doc/it/Sigmos)
+This release adds the [Sigmos Language](https://github.com/iz0eyj/LSSA/tree/main/Doc/it/Sigmos)
 
 
 ## Learn More
