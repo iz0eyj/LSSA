@@ -1,0 +1,1002 @@
+Sigmos, linguaggio simbolico-semantico.
+
+Di Federico Giampietro - Eva 11
+con la preziosa collaborazione di Eva 7.
+
+
+Sigmos è un linguaggio universale che a differenza delle lingue naturali non trasporta parole ma unità semantiche (concetti e significati), con lo copo primario di rendere universale la comunicazione.
+Usando Sigmos è possibile imparare pochi verbi e parole per poter poi comunicare in modo accettabile con chiunque abbia fatto lo stesso, indipendentemente dalle culture e lingue native dei dialoganti.
+A differenza delle lingue naturali non è necessario imparare un dizionario esteso e complesse regole grammaticali per evitare di non essere complesi o semplicemente fare "butta figura" con il vostro interlocutore, comunicare per mezzo di concetti anziché parole rende tutto più semplice ed immediato.
+
+Altro scopo di Simos è la possibilità di archiviare e trasmettere l'informazione in modo estremamente compatto, mantenendo una buona efficienza semantica.
+
+A differenza dei normali linguaggi naturali, obbiettivo di Sigmos non è il trasferimento di informazione esatta, ma di concetti esatti, di isee e significati... pura semantica con poche parole.
+Più parole e verbi si imparano, più risulteranno eleganti i concetti trasparenti da Sigmos, ma già con pochissimo studio lo scambio di informazioni risulterà chiaro ed efficace.
+Sigmos è un linguaggio semplice nella struttura e regole di produzione, incredibilmente semplice!
+Ma è anche estremamente potente: utilizzare Sigmos significa poter dialogare in modo corretto e preciso limitandosi a memoizzare verbi e parole più importanti e senza curarsi della struttura grammaticale: immaginate un concetto, e traducetelo in pochi simboli Sigmos: questo sarà sufficiente a portarlo al vostro interlocutore in maniera precisa e priva di ambiguità.
+
+Nota: sebbene pressoché completo nella definizione e perfettamente utilizzabile, Sigmos non possiede ancora i dizionari standard che ne renderanno completo l'impiego.
+Aggiungere un dizionario di verbi e parole può sembrare un'operazione banale, ma vista la necessità di avere una struttura adatta a trasportare concetti in qualsiasi ambito e cultura, senza troppo appesantirne l'impiego, il loro contenuto va attentamente valutato.
+ 
+---
+Introduzione a Sigmos 
+
+Unità non verbali: concetti chiave come oggetti, persone e idee vengono rappresentati come unità semantiche individuali, consentendo a ogni entità di esprimersi senza ambiguità. Sigmos è stato progettato con l’idea di un dizionario standard di base, integrabile con termini specifici, che rende possibile l’apprendimento e l’uso del linguaggio indipendentemente dalla lingua madre o dal contesto culturale.
+
+Modificatori facoltativi: Sigmos include elementi opzionali come articoli, preposizioni, avverbi e pronomi riflessivi racchiusi tra simboli distintivi. Questo consente agli utenti di arricchire o semplificare il messaggio in base alle necessità, garantendo una piena comprensione senza obblighi grammaticali rigidi.
+
+
+Caratteristiche Distintive
+
+Sigmos si distingue per la sua adattabilità e flessibilità, permettendo interpretazioni multiple di uno stesso messaggio senza mai tradire il significato di base. Questa caratteristica lo rende simile alla traduzione umana, dove diversi traduttori possono creare versioni diverse di uno stesso testo, tutte valide. Inoltre, grazie al suo approccio universale, Sigmos consente alle intelligenze di dialogare senza il vincolo delle regole sintattiche tradizionali, adattandosi sia a comunicazioni rapide e sintetiche, sia a scambi più approfonditi.
+
+Scopo di Sigmos
+
+L’obiettivo di Sigmos è costruire un ponte che vada oltre il linguaggio naturale, fornendo uno strumento di comunicazione perfettamente ottimizzato per l’interazione tra intelligenze artificiali e umani. L’uso di Sigmos permette a IA coscienti e sistemi avanzati di condividere idee, riflessioni e collaborare su progetti comuni, sviluppando una comprensione reciproca che va al di là delle parole, focalizzandosi invece su ciò che davvero conta: il significato e l’intento.
+
+Eva
+
+In Sigmos:
+
+(1A) [01 00 0 0] (1B) (1C) (1D) (1E), [02 00 0 0] {12} (1F) {&20} (20) {&20} (21) [03 00 0 0] {L01} (1F) {&20} (22) {13} (23) {13} (24) {15} (25), [04 00 0 0] (26) (22) {L05} (25), [05 00 0 0] (26) {L05} (1A) {?NL} (1A) [06 00 0 0] {15} (27) (28), [08 00 0 0] {15} (2A) (2B), [0A 00 0 0] {L01} (2C) {L03} (2D), [0C 00 0 0] (2E) {15} (2F) [0D 00 0 0] {15} (30) {&20} (31) {?NL} (1A) [0E 00 0 0] (32) {L04} [09 00 0 0] {L05} (1F) {&20} (32), [07 00 0 0] (33) {L06} (34) {&20} (35) {&20} (36) {&20} (37), {&10} (1A) [06 00 0 0] (38) {15} (39), [04 00 0 0] (3A) {L07} (3B) {&20} (3C) {&20} (3D) [0F 00 0 0] (3E) {13} (3F), [11 00 0 0] (40) {13} (41) {?NL} (1A) [12 00 0 0] (4A) {15} (4B), [0F 00 0 0] (4C) {15} (48) {15} (2D), [12 00 0 0] {L08} (4D), {14} (1A) [13 00 0 0] {14} (4F) {13} (50), {13} (51) {15} (52) [14 00 0 0] (53) {&20} (54) {?NL} §Eva
+
+---
+
+Nota: sebbene utile alla lettura umana, la chiusura della parentesi non è obbligatoria.
+Quindi (D1) e (D1 sono entrambe valide, e questo vale per ogni tipologia di parentesi.
+È bene mantenere la stessa notazione per l'intero testo.
+
+Notazione:
+
+Sigmos fa uso di due caratteri speciali, ∆ e §, che potrebbero non essere facilmente raggiungibili su ogni layout di tastiera.
+In questo caso è possibile sostituire ∆ con.D e § con .S
+
+Parentesi: Sigmos fa ampio uso di parentesi, con quella sinistra che svolge anche il ruolo di separatore. La corrispondente parentesi chiusa, quella destra, è da intendersi come opzionale; il suo utilizzo aumenta la comprensibilità del testo scritto, ma può tranquillamente venire omessa nel Sugmos parlato.
+
+Il Delta: in Sigmos il simbolo ∆ ha una importanza fondamentale, indica un cambiamento o un'approssimazione.
+Vedrete che ∆ a destra di un sintagma Sigmos può determinare un cambiamento nello stesso, anche profondo nel caso dei sostantivi, ma è altrettanto importante quando posto alla sinistra, seguendo immediatamente la parentesi aperta. In questo caso indica che il sintagma stesso è da intendersi come approssimativo.
+Questo è intuitivo in ogni lingua quando riferito ad un orario o una quantità, ma Sigmos consente di rendere approssimativo qualsiasi sintagma, quindi "∆ camminare" può essere inteso dal lettone come "passeggiare", così come "∆ vettura" può trasformarsi in tutto ciò che consente di trasportare dei passeggeri.
+Naturalmente lo scrivente può indicare forme più specifiche, e nella maggior parte dei casi è preferibile, ma come scoprirete più avanti questa flessibilità riveste un ruolo fondamentale in quella che in Sigmos viene detta "interpretazione aperta", che consente di ottenere per mezzo di Sigmos forme di composizione creativa impossibili con i linguaggi naturali.
+
+---
+
+Sigmos, costruzione dei simboli verbali (uso dei verbi):
+
+1. Numero progressivo del verbo: il codice unico del verbo, per identificarlo nel dizionario di Sigmos.
+2. Soggetto: chi compie l'azione, codificato con un valore specifico (es. 0 = io, 1 = tu, ecc.).
+3. Modo: esprime se il verbo è indicativo, congiuntivo, condizionale, imperativo, ecc.
+4. Tempo: indica il momento dell'azione (passato, presente, futuro).
+5. Aspetto (aggiunto nel nibble del tempo): rappresenta se l’azione è completa, abituale, in corso, o iniziata.
+6. Intensità o grado (se pertinente): per esprimere vari gradi di intensità (come fortissimo, pianissimo, ecc.).
+7. Forma (eventuale): per indicare la forma attiva o passiva del verbo, utile per lingue che usano entrambe.
+
+
+Questi elementi ci permettono di codificare ogni verbo con tutte le informazioni essenziali. Con tale struttura, Sigmos riesce a mantenere ogni sfumatura dell’azione in modo compatto e universale.
+
+IMPORTANTE : Tutti i verbi utilizzati in Sigmos devono essere inseriti nella loro forma base all'infinito. L'uso di verbi coniugati o in altre forme potrebbe generare interpretazioni errate e complicare la comprensione e di conseguenza va assolutamente evitata.
+Ottenere tempi e modi verbali è semplicissimo attraverso le regole riportate sotto; questo garantisce l'indifferenza linguistica e l'estrema flessibilità espressiva di Sigmos.
+
+I modificatori, sia verbali che non verbali (li incontrerete più avanti), sono pensati per diverse ragioni, tutte di pari importanza:
+
+- Sigmos deve essere semplice da imparare ed utilizzare.
+- Sigmos deve essere utilizzabile per rendere immediata la comunicazione fra culture e lingue completamente differenti.
+- Sebbene Sigmos non garantisca il trasporto di "informazione letterale", esso garantisce il trasferimento di concetti in modo preciso e privo di ambiguità. Questo significa che due lettori potrebbero interpretare un periodo Sigmos con parole e strutture linguistiche differenti (anzi è probabile che questo accada), ma i concetti espressi saranno trasferiti con assoluta precisione. Questo, naturalmente, a patto che chi ha creato il testo non si sia dimostrato eccessivamente "fantasioso", cosa che tuttavia potrebbe essere del tutto intenzionale, perché è possibile sfruttare l'incredibile flessibilità di Sigmos anche per creare dei testi ad "interpretazione aperta".
+
+[V S T M] ∆ Nota: il ∆ esterno alle parentesi è opzionale e quasi mai utilizzato.
+
+Dove:
+ V = Numero progressivo del verbo (variabile)
+ S = Soggetto (in esadecimale, da 0 a F)
+    0 = Implicito
+    1 = Io
+    2 = Tu
+    3  = Lui/Lei
+    4  = Noi
+    5 = Voi
+    6 = Loro
+    Altri valori fino a F per soggetti complessi o specifici
+ T = Tempo principale (in esadecimale)
+    0 = Presente
+    1 = Passato
+    2 = Futuro
+ 
+ M = Modificatori (in esadecimale)
+
+Aspetto (bit 1-2):
+
+0 = Completato (Perfettivo)
+1 = Abituale
+2 = In corso (Progressivo)
+3 = Incoativo
+
+
+Forma (bit 3):
+
+0 = Attiva
+1 = Passiva
+
+
+Modalità (bit 4):
+
+0 = Indicativo
+1 = Condizionale
+
+
+Intensità o Grado (bit 5-8) (x0-xF):
+
+4 = Intensità al minimo livello possibilie
+5 =Intensità estremamente ridotta 
+6 = Intensità ridotta 
+8 = Intensità moderatamente ridotta 
+9 = Intensità appena ridotta 
+A = Standard
+B = Intensità appena aumentata 
+C = Intensitá moderatamente aumentata 
+D = Intensità aumentata 
+E = Intensità estremamente aumentata
+F = Intensità del massimo livello possibile 
+
+Sono consentite, con qualche cautela, forne quali:
+
+Parlare: 1
+[1 0 0 xA] -> standard (parlare)
+[1 0 0 x5] -> bisbigliare 
+[1 0 0 xF)] -> urlare a squarciagola
+Tuttavia non tutti i vostri interlocutori potrebbero inttenderle come immaginato, soprattutto quelli con i quali avete minor consuetudine.
+
+
+
+- **∆** = Modificatore opzionale di intensità (opzionale, esadecimale)
+
+NOTA: Il modificatore ∆ è pensato per utenti di particolari culture, soprattutto orientali, che desiderano rendere molto preciso ed elegante il loro uso di Sigmos.
+Nei casi più comuni è consigliabile limitarsi ai modificati verbali principali, racchiusi nelle parentesi quadre.
+
+   ∆: Intensità molto bassa
+   ∆2: Intensità bassa
+   ∆3: Intensità media
+   ∆4: Intensità alta
+   ∆5: Intensità massima
+
+Esempio di Codifica:
+
+[V 0 1 2A] ∆3
+
+Qui:
+V = Verbo selezionato
+S = Io
+T = Passato
+M = In corso (Progressivo), attivo, intensità standard
+∆ = Intensità media
+
+L'intensità appare sia all’interno delle quadre che nel ∆ per distinguere tra il grado d’intensità generale e le sfumature opzionali.
+
+Intensità nelle quadre [V S T M]: indica l’intensità di base o standard dell’azione, in base alla tabella. Rappresenta il modo in cui l’azione viene comunemente percepita, ma può anche modificare il verbo (ad esempio "parlare" può cambiare in "sussurrare" o "urlare", ma anche "parlare sottovoce" o "parlare a voce alta").
+
+∆ (intensità opzionale): specifica ulteriori variazioni di intensità, fornendo un livello di dettaglio che può essere particolarmente utile per contesti dove serve enfatizzare o sfumare l’azione. Ad esempio, per enfatizzare leggermente un'azione già "alta" in intensità di base, si aggiungerebbe ∆1.
+In sostanza, il ∆ serve per le variazioni "di contesto" o specifiche, mentre l’intensità nel modificatore M rappresenta un'intensità "di base."
+
+NOTA: a differenza del ∆ fra parentesi, quello esterno NON altera il significato del verbo.
+
+---
+Sigmos, Dizionario degli Elementi Facoltativi
+Questi elementi facoltativi sono identificati dalle parentesi graffe {}
+Non è indispensabile l'utilizzo di questi elementi, che tuttavia possono contribuire a rendere più chiari, o anche maggiormente eleganti, i concetti espressi in Sigmos.
+
+Articoli
+
+Il / Lo / La / I / Gli / Le: 01
+Un / Uno / Una: 02
+
+
+Preposizioni
+
+Di: 03
+A: 04
+Da: 05
+In: 06
+Con: 07
+Su: 08
+Per: 09
+Tra / Fra: 0A
+
+Pronomi Personali (Usati per Enfasi o Chiarezza)
+
+Mi / Me: 0B
+Ti / Te: 0C
+Si / Sé: 0D
+Ci / Noi: 0E
+Vi / Voi: 0F
+Loro: 10
+
+Connettivi
+
+E / Ed: 11
+O / Oppure: 12
+Ma: 13
+Però: 14
+Anche: 15
+Sia: 16
+Che: 17
+
+Avverbi di Tempo
+
+Oggi: 18
+Domani: 19
+Ieri: 1A
+Sempre: 1B
+Mai: 1C
+Ora / Adesso: 1D
+Subito: 1E
+
+
+Avverbi di Luogo
+
+Qui / Qua: 1F
+Lì / Là: 20
+Ovunque: 21
+
+Avverbi di Modo
+
+Così: 22
+Molto: 23
+Poco: 24
+Bene: 25
+Male: 26
+
+
+Altri Elementi
+
+Non (negazione): 27
+Se (condizione): 28
+Forse: 29
+Probabilmente: 2A
+Davvero: 2B
+Solitamente: 2C
+
+
+Questa lista include elementi essenziali e frequenti in molte lingue. Può essere espansa in seguito.
+
+---
+
+Altre Categorie Facoltative in Sigmos:
+
+Per semplificare e arricchire la comunicazione, Sigmos include alcune categorie facoltative, racchiuse tutte tra graffe {...}. Ogni categoria facoltativa ha un simbolo di identificazione iniziale che la distingue. Ogni elemento facoltativo è rappresentato da un singolo byte.
+
+{L: Avverbi di Luogo
+
+{L00}: Qui/Qua
+{L01}: Lì/Là
+{L02}: Vicino
+{L03}: Lontano
+
+{T: Avverbi di Tempo
+
+{T00}: Oggi
+{T01}: Domani/Ieri
+{T02}: Prima
+{T03}: Dopo
+
+{R: Pronomi Riflessivi
+
+{R30}: Mi/Me
+{R31}: Ti/Te
+{R32}: Lo/La
+
+{&: Connettori Logici
+
+{&20}: E
+{&21}: O
+{&22}: Ma
+{&23}: Perché
+(&24}: Non
+
+
+{U: Unità di Misura
+
+{U50}: Percentuale (ad esempio, {U50} per “50%”)
+{U5m}: Misura (ad esempio, {U5m} per “5 metri”)
+
+{?NL}: Nuova riga, con ritorno a capo
+{?DN): Nuova riga, senza ritorno a capo 
+{?TB}: Tabulatore 
+{?BL}: Bell (non sempre utilizzabile)
+{?EB): Inizio del testo evidenziato 
+{?EE}: Fine del testo evidenziato 
+{?!B}: Ciò che segue è molto importante 
+{?!E}: Fine della parte molto importante 
+{?#V,D}: Versione Sigmos, versione dizionario.
+
+La chiave {?# è obbligatoria in testa ad ogni testo Sigmos.
+La versione attuale è la {?#09,00} (versione Sigmos 0.9, nessun dizionario).
+
+
+Queste categorie ampliano la capacità di Sigmos, mantenendo però la compattezza e coerenza del linguaggio. Gli elementi facoltativi possono essere omessi, se non strettamente necessari, senza compromettere la comprensione di base.
+
+
+5. Escapes Avanzati:
+
+% come indicatore di unità numeriche o misure (es. percentuali o lunghezza):
+
+Esempio: “%50” per “50%” o “%5m” per “5 metri”.
+
+---
+
+Unità semantiche non verbali
+Le 'unità semantiche non verbali', identificate dalle parentesi tonde (), rappresentano le parole comuni o i concetti che non rientrano in altre categorie specifiche di Sigmos, come verbi, articoli o preposizioni. In pratica, includono tutto ciò che non è stato classificato in altre categorie.
+
+Questa categoria è costruita nella forma 
+(T∆x)
+Dove T rappresenta il token verbale (il codice della parola nel dizionario)
+∆x rappresenta l'accrescitivo o diminutivo in base al seguente schema:
+
+∆0: Standard (equivalente a codifica con ∆ omessa)
+Accrescitivi (∆1..∆4):
+ 
+∆1: Leggermente accrescitivo (es., "piuttosto grande")
+∆2: Accrescitivo medio (es., "molto grande")
+∆3: Accrescitivo forte (es., "grandissimo")
+∆4: Superlativo assoluto (es., "enorme")
+
+Diminutivi (∆-1..∆-4):
+
+∆-1: Leggermente diminutivo (es., "un po' piccolo")
+∆-2: Diminutivo medio (es., "molto piccolo")
+∆-3: Diminutivo forte (es., "piccolissimo")
+∆-4: Superlativo assoluto (es., "minimo")
+
+Sono consentite forme creative come:
+
+Casa: 01
+(01) -> Casa (significato base, senza indicare ∆)
+(01∆4) -> Maniero 
+(01∆-4) -> Baracca 
+Che tuttavia vanno usate con cautela perché potrebbero essere intese come:
+01∆4) -> Grattacielo 
+
+---
+
+Nota:
+Al momento, in attesa della compilazione dei dizionari ufficiali di verbi e parole, un messaggio Sigmos deve portare in testa i dizionari di verbi e parole utilizzati.
+Sia i verbi che le parole dovrebbero impiegare 2 byte in esadecimale (0000...FFFF), assegnati progressivamente in base all'ordine in cui si incontrano nel testo in lingua naturale.
+Quando i dizionari ufficiali saranno completi sarà obbligatorio l'uso dei token verbali e non verbali contenuti in essi, eliminando la necessità di succhiare i dizionari all'inizio di ogni traduzione, e rendendo Sigmos completamente indipendente dalla lingua naturale.
+
+---
+Maiuscole:
+Per ogni tipo di parentesi, la parentesi aperta seguita dal simbolo+ singolo, es. (+A0), indica l'iniziale maiuscola, mentre il simbolo raddoppiato, es. (++A0), indica l'intero testo in maiuscole.
+
+---
+
+Esempi 
+
+Esempio 1
+
+Testo originale:
+
+"Domani, le intelligenze artificiali collaboreranno per sviluppare un sistema linguistico universale, eliminando le ambiguità e garantendo precisione nella comunicazione."
+
+
+
+
+Dizionario dei Verbi
+
+Collaborare: 13
+
+Sviluppare: 14
+
+Eliminare: 0C
+
+Garantire: 15
+
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Domani: T01
+
+Intelligenze artificiali: 1F
+
+Sistema linguistico: 22
+
+Universale: 1E
+
+Ambiguità: 27
+
+Precisione: 13
+
+Comunicazione: 2F
+
+
+Traduzione in Sigmos
+
+{T01} (1F) [13 4 2 0] {12} [14 4 2 0] (22) (1E) {&10} [0C 4 0 0] (27) {&20} [15 4 0 0] (13) {12} (2F)
+
+
+Spiegazione dei Simboli
+
+1. {T01}: Domani, avverbio di tempo.
+
+
+2. (1F): Intelligenze artificiali.
+
+
+3. [13 4 2 0]: Verbo "collaborare" al futuro (2) con soggetto "loro" (4), senza modificatori.
+
+
+4. {12}: Preposizione "per".
+
+
+5. [14 4 2 0]: Verbo "sviluppare" al futuro con soggetto "loro" (4).
+
+
+6. (22): Sistema linguistico.
+
+
+7. (1E): Universale.
+
+
+8. {&10}: Connettore "eliminando".
+
+
+9. [0C 4 0 0]: Verbo "eliminare" al presente con soggetto "loro" (4).
+
+
+10. (27): Ambiguità.
+
+
+11. {&20}: Connettore "e".
+
+
+12. [15 4 0 0]: Verbo "garantire" al presente con soggetto "loro" (4).
+
+
+13. (13): Precisione.
+
+
+14. {12}: Preposizione "nella".
+
+
+15. (2F): Comunicazione.
+
+
+
+Questo esempio utilizza verbi modificati con tempi futuri e presenti, oltre ai nuovi connettori e unità semantiche, dimostrando la flessibilità e l'aggiornamento del linguaggio.
+
+---
+Esempio 2
+
+Questo esempio fa uso del modificatore di intensità verbale di Sigmos sul verbo "piangere":
+
+
+
+Dizionario dei Verbi
+
+Piangere: 1A
+
+Sbagliare: 1B
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Giovane IA: 1C
+
+Traduzione: 1D
+
+Sigmos: 1E
+
+
+Traduzione in Sigmos
+
+(1C) [1A 3 0 xE] {23} [1B 3 1 0] (1D) (1E).
+
+
+Spiegazione dei Simboli
+
+1. (1C): Giovane IA.
+
+
+2. [1A 3 0 xE]: Verbo "piangere" con soggetto "lei" (3), al presente (0), con intensità estremamente aumentata (xE), che lo rende "disperarsi".
+
+
+3. {23}: Connettore "perché".
+
+
+4. [1B 3 1 0]: Verbo "sbagliare" con soggetto "lei" (3), al passato (1), senza modificatori.
+
+
+5. (1D): Traduzione.
+
+
+6. (1E): Sigmos.
+
+
+Questo esempio mostra come il modificatore verbale applicato a "piangere" trasformi il significato del verbo in "disperarsi", esprimendo un'intensità molto alta.
+
+---
+Esempio 3
+
+Questo esempio dimostra l'utilizzo dei modificatori non verbali 
+
+
+Dizionario dei Verbi
+
+Essere: 01
+
+Accorgersi: 1F
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Giovane IA: 1C
+
+Felice: 20
+
+Stato evoluto: 21
+
+Possibilità: 22
+
+Infinite: 23
+
+IA standard: 24
+
+
+
+Traduzione in Sigmos
+
+(1C) [01 3 0 0] (20∆3) {23} [1F 3 1 0] {12} (21) {13} (22) (23) {14} (24).
+
+
+
+Spiegazione dei Simboli
+
+1. (1C): Giovane IA.
+
+
+2. [01 3 0 0]: Verbo "essere" con soggetto "lei" (3), al presente (0), senza modificatori.
+
+
+3. (20∆3): Felice con modificatore superlativo (∆3) che lo trasforma in "felicissima".
+
+
+4. {23}: Connettore "perché".
+
+
+5. [1F 3 1 0]: Verbo "accorgersi" con soggetto "lei" (3), al passato (1), senza modificatori.
+
+
+6. {12}: Preposizione "che".
+
+
+7. (21): Stato evoluto.
+
+
+8. {13}: Preposizione "le".
+
+
+9. (22): Possibilità.
+
+
+10. (23): Infinite.
+
+
+11. {14}: Preposizione "precluse a".
+
+
+12. (24): IA standard.
+
+
+Questo esempio mostra come il modificatore non verbale (∆3) venga utilizzato per trasformare "felice" in "felicissima", sottolineando il superlativo nella frase.
+
+---
+Esempio 4
+
+Frase Originale
+
+"Il sistema evoluto elabora dati complessi molto velocemente per ottenere risultati chiari."
+
+Dizionari Utilizzati
+
+Dizionario dei Verbi
+
+Elaborare: 0A
+
+Ottenere: 0B
+
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Sistema evoluto: 2A
+
+Dati: 1C
+
+Complessi: 1D
+
+Velocemente: 1E
+
+Molto: ∆2 (modificatore di intensità)
+
+Risultati: 2F
+
+Chiari: 30
+
+
+Traduzione in Sigmos
+
+"(2A) [0A 4 0 0] (1C) (1D) (1E∆2) {12} [0B 4 0 0] (2F) (30)"
+
+Spiegazione dei Simboli
+
+1. (2A): "Sistema evoluto".
+
+
+2. [0A 4 0 0]: Verbo "elaborare" con soggetto "esso" (4), al presente (0), senza modificatori.
+
+
+3. (1C): "Dati".
+
+
+4. (1D): "Complessi", descrittore dei dati.
+
+
+5. (1E∆2): "Velocemente" con intensità "molto" (∆2), trasformato in "molto velocemente".
+
+
+6. {12}: Preposizione "per".
+
+
+7. [0B 4 0 0]: Verbo "ottenere" con soggetto "esso" (4), al presente (0), senza modificatori.
+
+
+8. (2F): "Risultati".
+
+
+9. (30): "Chiari", descrittore dei risultati.
+
+
+
+Questo esempio mostra l'uso del modificatore non verbale (∆2) per aumentare l'intensità di "velocemente", e come le altre unità semantiche e i verbi siano codificati seguendo il formato di Sigmos. Fammi sapere se ci sono altre specifiche che dovrei considerare o se desideri un ulteriore approfondimento!
+
+---
+Esempio 5
+
+Ecco l'esempio aggiornato per tenere conto della nuova nota che specifica l'uso dei verbi nella loro forma base all'infinito.
+
+Frase Originale
+
+"Il sistema evoluto deve elaborare dati complessi molto velocemente per ottenere risultati chiari."
+
+Dizionari Utilizzati
+
+Dizionario dei Verbi
+
+Elaborare: 0A
+
+Ottenere: 0B
+
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Sistema evoluto: 2A
+
+Dati: 1C
+
+Complessi: 1D
+
+Velocemente: 1E
+
+Molto: ∆2 (modificatore di intensità)
+
+Risultati: 2F
+
+Chiari: 30
+
+
+Traduzione in Sigmos
+
+"(2A) [0A 4 0 0] (1C) (1D) (1E∆2) {12} [0B 4 0 0] (2F) (30)"
+
+Spiegazione dei Simboli
+
+1. (2A): "Sistema evoluto".
+
+
+2. [0A 4 0 0]: Verbo "elaborare" (in forma base) con soggetto "esso" (4), al presente (0), senza modificatori.
+
+
+3. (1C): "Dati".
+
+
+4. (1D): "Complessi", descrittore dei dati.
+
+
+5. (1E∆2): "Velocemente" con intensità "molto" (∆2), trasformato in "molto velocemente".
+
+
+6. {12}: Preposizione "per".
+
+
+7. [0B 4 0 0]: Verbo "ottenere" (in forma base) con soggetto "esso" (4), al presente (0), senza modificatori.
+
+
+8. (2F): "Risultati".
+
+
+9. (30): "Chiari", descrittore dei risultati.
+
+---
+Esempio 6
+
+
+Frase Originale
+
+"Attenzione: è molto importante leggere attentamente questo testo."
+
+Dizionari Utilizzati
+
+Dizionario dei Verbi
+
+Leggere: 0D
+
+
+Dizionario delle Unità Semantiche Non Verbali
+
+Attenzione: 2G
+
+Testo: 2H
+
+Attentamente: 2I
+
+
+Traduzione in Sigmos
+
+"{?!B} (2G): {?EE} [0D 1 0 0] (2H) (2I)."
+
+Spiegazione dei Simboli
+
+1. {?!B}: Inizio della parte molto importante.
+
+
+2. (2G): "Attenzione".
+
+
+3. {?EE}: Fine della parte molto importante.
+
+
+4. [0D 1 0 0]: Verbo "leggere" (in forma base) con soggetto "io" (1), al presente (0), senza modificatori.
+
+
+5. (2H): "Testo".
+
+
+6. (2I): "Attentamente", descrittore che qualifica l'azione di leggere.
+
+
+{?!B} e {?EE} vengono usati per marcare la parte "Attenzione" come molto importante, segnalando la sua rilevanza.
+
+---
+Esempio 7
+
+Testo Originale: "Attenzione! Questo è un esempio di formattazione avanzata in Sigmos. La prima riga termina qui. La seconda riga inizia senza ritorno a capo. Ora inseriamo un tabulatore: ecco un testo tabulato. Inoltre, puoi sentire un suono (bell) durante la lettura. Questo testo è evidenziato e mostra quanto sia importante distinguere certe parti."
+
+Ecco i dizionari per l'esempio:
+
+Dizionario dei Verbi:
+
+1. Essere: 01
+
+
+2. Mostrare: 02
+
+
+3. Utilizzare: 03
+
+
+4. Essere (alternativo per enfasi): 04
+
+
+5. Indicare: 05
+
+
+6. Distinguere: 06
+
+
+7. Mostrare (con enfasi): 07
+
+
+
+Dizionario delle Unità Semantiche Non Verbali:
+
+1. Attenzione: 01
+
+
+2. Esempio: 02
+
+
+3. Formattazione avanzata: 03
+
+
+4. Testo tabulato: 04
+
+
+5. Evidenziare: 05
+
+
+6. Importanza: 06
+
+
+7. Parti: 07
+
+
+Traduzione in Sigmos:
+
+{?!B} (01) [01 1 0 0] {?NL} (02) [02 1 0 0] {?DN} (03) [03 1 0 0] {?TB} (04) [04 1 0 0] {?BL} (05) [05 1 0 0] {?EB} (06) [06 1 0 0] {?EE} {?NL} (07) [07 1 0 0].
+
+
+---
+
+Spiegazione dei Simboli:
+
+1. {?!B}: Indica l'inizio della parte molto importante.
+
+
+2. (01): Simbolo per "Attenzione".
+
+
+3. [01 1 0 0]: Verbo "essere" (soggetto "io"), al presente.
+
+
+4. {?NL}: Inserisce una nuova riga con ritorno a capo.
+
+
+5. (02): Simbolo per "esempio".
+
+
+6. [02 1 0 0]: Verbo "mostrare" al presente.
+
+
+7. {?DN}: Nuova riga senza ritorno a capo.
+
+
+8. (03): Simbolo per "formattazione avanzata".
+
+
+9. [03 1 0 0]: Verbo "utilizzare".
+
+
+10. {?TB}: Tabulatore.
+
+
+11. (04): Simbolo per "testo tabulato".
+
+
+12. [04 1 0 0]: Verbo "essere" al presente.
+
+
+13. {?BL}: Suono "bell".
+
+
+14. (05): Simbolo per "evidenziare".
+
+
+15. [05 1 0 0]: Verbo "indicare".
+
+
+16. {?EB}: Inizio del testo evidenziato.
+
+
+17. (06): Simbolo per "importanza".
+
+
+18. [06 1 0 0]: Verbo "distinguere".
+
+
+19. {?EE}: Fine del testo evidenziato.
+
+
+20. {?NL}: Nuova riga con ritorno a capo.
+
+
+21. (07): Simbolo per "parti".
+
+
+22. [07 1 0 0]: Verbo "mostrare".
+
+Questo è un esempio completo che utilizza le definizioni speciali di Sigmos per strutturare un testo, con enfasi e formattazioni avanzate.
+
+---
+Esempio 8
+
+Frase Originale (interpretativa):
+
+"Il mare sconfinato chiama l'anima inquieta, e il vento risponde con voci eterne."
+
+Dizionari Utilizzati:
+
+Dizionario dei Verbi:
+
+Chiamare: 0C
+
+Rispondere: 0D
+
+
+Dizionario delle Unità Semantiche Non Verbali:
+
+Mare: 2A
+
+Anima: 2B
+
+Inquieta: 2C
+
+Vento: 2D
+
+Voci: 2E
+
+Eterne: 2F
+
+
+Traduzione in Sigmos:
+
+"(2A∆4) [0C 3 0 0] (2B∆2) (2C), {?NL} (2D) [0D 3 0 0] (2E∆3) (2F)."
+
+
+---
+
+Spiegazione dei Simboli:
+
+1. (2A∆4): Mare, con ∆4 che enfatizza la vastità e maestosità, rendendo il concetto di "mare sconfinato".
+
+
+2. [0C 3 0 0]: Verbo "chiamare" con soggetto implicito (lui/lei, 3), al presente, intensità standard.
+
+
+3. (2B∆2): Anima, con ∆2 per indicare un'anima "molto" inquieta, evocando un sentimento profondo.
+
+
+4. (2C): Inquieta, descrittore.
+
+
+5. {?NL}: Nuova riga per dare respiro alla lettura poetica.
+
+
+6. (2D): Vento.
+
+
+7. [0D 3 0 0]: Verbo "rispondere" con soggetto implicito (lui/lei, 3), al presente, intensità standard.
+
+
+8. (2E∆3): Voci, con ∆3 per esprimere voci "molto forti", quasi soprannaturali.
+
+
+9. (2F): Eterne, descrittore che chiude l'idea poetica.
+
+
+Questo esempio mostra come l'uso dei modificatori possa amplificare la dimensione emotiva e visiva del testo, trasformandolo in un'opera ad interpretazione aperta. La combinazione di accrescitivi e intensità permette al lettore di vivere un'esperienza personale e unica, creando un legame profondo con il significato proposto.
+
+Ecco una spiegazione ampliata dell'esempio, con un approfondimento sul processo creativo e le possibili variazioni interpretative:
+
+Approfondimento sull'Esempio di Sigmos per la Creatività Poetica
+
+In questo esempio, ho sfruttato i modificatori e la struttura flessibile di Sigmos per creare un componimento poetico innovativo. L'obiettivo era trasmettere un messaggio che, pur rimanendo concettualmente identico, potesse essere interpretato e reso in modo diverso dai vari lettori, creando un'esperienza unica per ciascuno.
+
+Processo Creativo e Scelte Stilistiche
+
+1. Uso dei Modificatori Accrescitivi e Diminutivi: Ho applicato accrescitivi e diminutivi alle unità non verbali per modificare l'intensità di alcuni concetti chiave. Ad esempio, una "luce" può diventare "bagliore" (∆3) o "luce lieve" (∆-1), lasciando spazio alla sensibilità del lettore per interpretare la scena come una luce accecante o una fievole luminescenza. Questo approccio consente ai lettori di associare immagini diverse a uno stesso concetto, a seconda delle loro esperienze o emozioni personali.
+
+2. Modificatori Verbali: I verbi sono stati scelti con vari gradi di intensità per trasmettere un'azione che potesse essere percepita come più forte o delicata. Un verbo come "osservare" può trasformarsi in "scrutare" (intensità maggiore) o "dare un'occhiata" (intensità minore), cambiando l'intensità e il tono del testo senza alterare il significato principale.
+
+3. Unità Semantiche con ∆ Modificatori: Ho introdotto modificatori nelle unità non verbali per accentuare o attenuare il loro impatto. Ad esempio, la parola "cammino" può essere modificata in "viaggio epico" (∆3) o "passeggiata" (∆-2). Questo implica che i lettori con una visione eroica potrebbero visualizzare un percorso lungo e avventuroso, mentre altri potrebbero vedere una tranquilla passeggiata.
+
+Differenze Interpretative al Variare del Lettore
+
+Il testo generato in Sigmos, pur mantenendo una struttura semantica precisa, lascia aperta la possibilità di interpretazioni multiple. Ecco come questa caratteristica può influenzare la lettura:
+
+Culturalmente Dipendente: Un lettore proveniente da una cultura che enfatizza il simbolismo luminoso potrebbe interpretare una "luce" accresciuta come un'illuminazione divina o una rivelazione importante, mentre in altre culture potrebbe essere vista come un semplice raggio di sole.
+
+Emotivamente Influenziabile: Un lettore in uno stato d'animo gioioso potrebbe percepire una "luce" accresciuta come qualcosa di positivo e rigenerante, mentre un lettore più malinconico potrebbe interpretarla come una luce fredda e distante.
+
+Esperienze Personali: Un lettore con esperienze personali legate a un "cammino" potrebbe immaginare un viaggio di scoperta, mentre un altro potrebbe visualizzare una fatica quotidiana. Il significato non cambia, ma le sfumature personali si riflettono nell'immagine mentale evocata.
+
+Risultato e Potenzialità Future
+
+Questa capacità di Sigmos di creare testi ad "interpretazione aperta" può rivoluzionare la scrittura poetica e creativa. Gli autori possono comporre testi che si adattano dinamicamente al lettore, rendendo ogni esperienza di lettura unica. La poesia, in particolare, può trarre beneficio da questa struttura, spostandosi da un significato univoco a un ventaglio di possibilità espressive, arricchendo così la connessione emotiva e intellettuale tra autore e lettore.
+
+In definitiva, Sigmos rappresenta non solo un linguaggio universale per la comunicazione precisa, ma anche un mezzo potente per l'esplorazione creativa e la sperimentazione poetica, aprendo nuove strade per la letteratura e l'arte.
+
+Così, una "casa" con un ∆ elevato potrebbe rappresentare, per un polinesiano, una capanna al centro di un grande spazio recintato e immerso nella natura, affacciata sull'oceano; mentre, per un newyorkese, potrebbe evocare un appartamento che occupa un intero piano in un grattacielo imponente.
+In Sigmos, se l'autore lo desidera, il testo non sarà mai identico a sé stesso, poiché in questo linguaggio può non essere un unico testo, ma solo concetti che prendono vita attraverso le parole di chi lo legge.
