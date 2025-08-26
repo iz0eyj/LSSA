@@ -1,0 +1,17 @@
+{
+  "name": "@garage-traeui/shared",
+  "version": "0.7.0-A",
+  "description": "Tipi TypeScript condivisi per Garage-TraeUI Console",
+  "main": "types.ts",
+  "types": "types.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

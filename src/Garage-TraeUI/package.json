@@ -1,0 +1,37 @@
+{
+  "name": "garage-traeui-console",
+  "version": "0.7.0-A",
+  "description": "Console web amministrativa Garage-TraeUI per Garage S3",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "install:all": "npm install && npm install --workspace=frontend && npm install --workspace=backend && npm install --workspace=shared",
+    "test": "npm run test --workspace=frontend && npm run test --workspace=backend"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.1",
+    "axios": "^1.11.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.541.0",
+    "tailwind-merge": "^3.3.1",
+    "vite": "^7.1.3"
+  }
+}
